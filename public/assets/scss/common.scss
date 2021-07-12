@@ -1,0 +1,11 @@
+  
+html, body, #root {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(10deg, $bg 0%, $darkbg 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
