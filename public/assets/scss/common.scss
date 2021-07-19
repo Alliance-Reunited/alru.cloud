@@ -1,4 +1,5 @@
-  
+@import 'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap';
+
 html, body, #root {
     min-width: 100%;
     min-height: 100%;
@@ -8,4 +9,6 @@ body {
     background: linear-gradient(10deg, $bg 0%, $darkbg 100%);
     background-repeat: no-repeat;
     background-size: cover;
+
+    font-family: 'Ubuntu';
 }
