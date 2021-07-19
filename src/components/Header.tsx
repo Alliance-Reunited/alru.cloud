@@ -33,13 +33,13 @@ class Header extends React.Component {
                             </ul>
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <a href="https://forum.alru.ga" className="nav-link">Forum</a>
+                                    <a href="https://forum.alru.ga" target="_blank" rel="noreferrer" className="nav-link">Forum</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="https://panel.alru.ga" className="nav-link">Panel</a>
+                                    <a href="https://panel.alru.ga" target="_blank" rel="noreferrer" className="nav-link">Panel</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="https://discord.alru.ga" className="nav-link">Discord</a>
+                                    <a href="https://discord.alru.ga" target="_blank" rel="noreferrer" className="nav-link">Discord</a>
                                 </li>
                             </ul>
                         </div>
