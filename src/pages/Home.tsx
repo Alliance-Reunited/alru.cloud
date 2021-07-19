@@ -12,11 +12,9 @@ import '../../public/assets/scss/pages/home.scss';
 class Home extends React.Component {
     render = () => {
         return (
-            <main className="text-center">
-                <h1 className="mt-5 mb-3">Welcome to the Alru Network!</h1>
-                <div className="sidebar-wrapper">
-                    <iframe src="https://canary.discord.com/widget?id=757079346719621150&theme=dark" width="350" height="500" allowTransparency={true} frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-                </div>
+            <main className="text-center container">
+                <h1 className="my-5">Welcome to the Alru Network!</h1>
+                <p>Reuniting friends, family, and forgotten organizations, we are a community bringing together these scattered groups as one. We&apos;ve also been hosting servers for various different games since November 15, 2020, for the community, and more. Join our Discord to be part of our amazing community today!</p>
             </main>
         );
     }
