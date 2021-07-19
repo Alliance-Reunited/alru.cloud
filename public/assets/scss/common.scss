@@ -1,4 +1,8 @@
-@import 'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap';
+
+html, body {
+    font-family: 'Titillium Web', sans-serif;
+}
 
 html, body, #root {
     min-width: 100%;
@@ -10,5 +14,5 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-    font-family: 'Ubuntu';
+    font-family: 'Titillium Web', sans-serif;
 }
