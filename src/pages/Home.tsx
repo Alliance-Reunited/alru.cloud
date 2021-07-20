@@ -17,10 +17,10 @@ class Home extends React.Component {
                     We&apos;ve also been hosting servers for various different games since November 15, 2020, for the community, and more.
                     Join our Discord to be part of our amazing community today!
                 </p>
-                <div className="game-btn-wrapper container mt-5">
-                    <a href="/servers#gmod" className="gmod-btn btn btn-lg mx-1">Garry&apos;s Mod</a>
-                    <a href="/servers#minecraft" className="minecraft-btn btn btn-lg mx-1">Minecraft</a>
-                    <a href="/servers#fivem" className="fivem-btn btn btn-lg mx-1">FiveM</a>
+                <div className="game-btn-wrapper d-flex mt-5">
+                    <a href="/servers#gmod" className="gmod-btn btn btn-lg">Garry&apos;s Mod</a>
+                    <a href="/servers#minecraft" className="minecraft-btn btn btn-lg">Minecraft</a>
+                    <a href="/servers#fivem" className="fivem-btn btn btn-lg">FiveM</a>
                 </div>
             </main>
         );
