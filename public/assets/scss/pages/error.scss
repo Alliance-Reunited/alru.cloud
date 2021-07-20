@@ -2,16 +2,24 @@ h1.error-header {
     font-size: 15em !important;
     font-weight: bold !important;
     margin: 0;
+
+    animation: fadeText 0.5s;
 }
 
 h3.error-subscript {
     font-size: 2em !important;
     margin: 0;
-    color: rgb(200, 200, 200)
+    color: rgb(200, 200, 200);
+    animation: fadeSplash 1s;
 }
 
-svg {
-    width: 5em;
-    margin: 0;
-    padding: 0;
+@keyframes fadeText {
+    0% { opacity: 0; transform: translateY(-50px); }
+    100% { opacity: 1; transform: translateY(0px);  }
+}
+
+@keyframes fadeSplash {
+    0% { opacity: 0; }
+    50% { opacity: 0; transform: translateY(-25px); }
+    100% { opacity: 1; transform: translateY(0px); }
 }
