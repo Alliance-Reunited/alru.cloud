@@ -7,11 +7,7 @@ p {
 }
 
 .staff-cards {
-    display: flex;
-    justify-content: center;
     gap: 0.5em;
-
-    flex-wrap: wrap;
 
     // Text IDs
     .color-red-text {

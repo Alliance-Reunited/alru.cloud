@@ -20,8 +20,7 @@ class Staff extends React.Component {
                 </div>
 
                 <div className="container text-start mt-5">
-                    <div className="staff-cards">
-
+                    <div className="staff-cards d-flex flex-wrap justify-content-center">
                         <div className="card color-blue">
                             <img src="https://alru.ga/static/media/damienvesper.cbf1a5a1.gif" alt="DamienVesper's profile picture" />
                             <div className="staff-card-info">
