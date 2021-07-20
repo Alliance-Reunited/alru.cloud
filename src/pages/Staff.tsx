@@ -120,7 +120,7 @@ class Staff extends React.Component {
                         <div className="card card-dev" id="9">
                             <img src={Agent} alt="Agent's profile picture" />
                             <div className="staff-card-info">
-                                <h3>Agent</h3>
+                                <h3>SolaceAgent</h3>
                                 <h4>Developer</h4>
                             </div>
                         </div>
