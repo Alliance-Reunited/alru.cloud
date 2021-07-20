@@ -34,7 +34,7 @@ class Servers extends React.Component {
                             <td><a href="steam://connect/207.225.26.83:65443">207.225.26.83:65443</a></td>
                         </tr>
                         <tr>
-                            <td><span className="bad me-1">[SOON<sup>TM</sup>]</span> South Park DarkRP</td>
+                            <td><span className="bad me-1">[SOON]</span> South Park DarkRP</td>
                             <td><a href="steam://connect/207.225.26.83:65448">207.225.26.83:65448</a></td>
                         </tr>
                     </tbody>
@@ -52,7 +52,7 @@ class Servers extends React.Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <td><span className="bad me-1">[SOON<sup>TM</sup>]</span> AlruMC Network</td>
+                            <td><span className="bad me-1">[SOON]</span> AlruMC Network</td>
                             <td><a href="#">mc.alru.ga</a></td>
                         </tr>
                     </tbody>
