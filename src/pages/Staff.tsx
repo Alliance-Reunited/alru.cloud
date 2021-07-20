@@ -37,8 +37,8 @@ class Staff extends React.Component {
 
                 <div className="container text-start mt-5">
 
-                    <div className="top">
-                        <a href="https://forum.alru.ga/t/staff-applications"><button className="apply">Apply For Staff</button></a>
+                    <div className="apply-wrapper">
+                        <a href="https://forum.alru.ga/t/staff-applications" className="btn apply">Apply For Staff</a>
                     </div>
 
                     <div className="staff-cards d-flex flex-wrap justify-content-center">

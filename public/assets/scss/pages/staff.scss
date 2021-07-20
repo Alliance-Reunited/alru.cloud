@@ -82,23 +82,26 @@ p {
     }
 }
 
-button.apply {
-    animation: fadeSplash 1.3s;
-    border: none;
+a.apply {
+    color: #ffffff;
     background-color: #9b59b6;
-    border-radius: 1em;
-    color: white;
     padding: 1em 3em;
+
+    border: none;
+    border-radius: 1em;
+
+    animation: fadeSplash 1.3s;
     transition: 0.3s;
 }
 
-button.apply:hover {
+a.apply:hover {
     background-color: #8e44ad;
 }
 
-.top {
+.apply-wrapper {
     display: flex;
     justify-content: center;
+
     margin: 0;
     margin-bottom: 2em;
 }
