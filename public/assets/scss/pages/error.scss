@@ -13,6 +13,14 @@ h3.error-subscript {
     animation: fadeSplash 1s;
 }
 
+h4.error-subsubscript {
+    font-size: 1.5em !important;
+    margin: 0;
+    margin-top: 0.5em;
+    color: rgb(150, 150, 150);
+    animation: fadeSplash 1s;
+}
+
 @keyframes fadeText {
     0% { opacity: 0; transform: translateY(-50px); }
     100% { opacity: 1; transform: translateY(0px);  }
