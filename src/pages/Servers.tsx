@@ -31,7 +31,7 @@ class Servers extends React.Component {
                         </tr>
                         <tr>
                             <td>Among Us Royale</td>
-                            <td><a href="steam://207.225.26.83:65443">207.225.26.83:65443</a></td>
+                            <td><a href="steam://connect/207.225.26.83:65443">207.225.26.83:65443</a></td>
                         </tr>
                         <tr>
                             <td><span className="bad me-1">[SOON<sup>TM</sup>]</span> South Park DarkRP</td>
