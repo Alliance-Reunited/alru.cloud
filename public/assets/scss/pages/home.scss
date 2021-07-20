@@ -1,13 +1,13 @@
-h1 {
+h1.page-title {
     animation: fadeLogo 1s;
 }
 
-.desc {
+p.desc {
     animation: fadeSplash 1.5s;
 }
 
-div.container.mt-5 {
-    button {
+div.game-btn-wrapper {
+    a {
         color: #FFF;
         border-radius: 8px;
 
@@ -15,22 +15,22 @@ div.container.mt-5 {
         transition: 0.3s;
     }
 
-    button.gmod-btn {
+    a.gmod-btn {
         background-color: #2059f7;
         animation: fadeSplash 2s;
     }
 
-    button.minecraft-btn {
+    a.minecraft-btn {
         background-color: #2ab556;
         animation: fadeSplash 2.25s;
     }
 
-    button.fivem-btn {
+    a.fivem-btn {
         background-color: #f72020;
         animation: fadeSplash 2.5s;
     }
 
-    button:hover {
+    a:hover {
         background-color: #ffffff;
         color: #000000;
 
