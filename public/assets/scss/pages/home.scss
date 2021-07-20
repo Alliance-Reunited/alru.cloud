@@ -6,6 +6,38 @@ h1 {
     animation: fadeSplash 1.5s;
 }
 
+div.container.mt-5 {
+    button {
+        color: #FFF;
+        border-radius: 8px;
+
+        padding: 16px 32px !important;
+        transition: 0.3s;
+    }
+
+    button.gmod-btn {
+        background-color: #2059f7;
+        animation: fadeSplash 2s;
+    }
+
+    button.minecraft-btn {
+        background-color: #2ab556;
+        animation: fadeSplash 2.25s;
+    }
+
+    button.fivem-btn {
+        background-color: #f72020;
+        animation: fadeSplash 2.5s;
+    }
+
+    button:hover {
+        background-color: #ffffff;
+        color: #000000;
+
+        transform: scale(90%);
+    }
+}
+
 @keyframes fadeLogo {
     0% { opacity: 0; transform: translateY(-50px); }
     100% { opacity: 1; transform: translateY(0px);  }
