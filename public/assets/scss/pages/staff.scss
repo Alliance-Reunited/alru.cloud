@@ -1,9 +1,9 @@
 h1.staff-title {
-    animation: fadeText 1s;
+    animation: fastFadeIn 1s;
 }
 
 p.staff-desc {
-    animation: fadeSplash 1.5s;
+    animation: fadeIn 1.5s;
 }
 
 a.apply {
@@ -14,7 +14,7 @@ a.apply {
     border: none;
     border-radius: 1em;
 
-    animation: fadeSplash 2s;
+    animation: fadeIn 2s;
     transition: 0.3s;
 }
 
@@ -65,7 +65,7 @@ a.apply:hover {
         border: 1px solid #82828280;
         border-radius: 0.5rem;
 
-        animation: fadeSplash 2.25s;
+        animation: fadeIn 2.25s;
         padding: 1em;
 
         img {
@@ -109,15 +109,4 @@ a.apply:hover {
             border-radius: 25%;
         }
     }
-}
-
-@keyframes fadeText {
-    0% { opacity: 0; transform: translateY(-50px); }
-    100% { opacity: 1; transform: translateY(0px);  }
-}
-
-@keyframes fadeSplash {
-    0% { opacity: 0; }
-    50% { opacity: 0; transform: translateY(-25px); }
-    100% { opacity: 1; transform: translateY(0px); }
 }
