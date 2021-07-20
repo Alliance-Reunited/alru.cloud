@@ -37,6 +37,8 @@ a.apply:hover {
 
 .staff-cards {
     gap: 0.5em;
+    flex-direction: column;
+    align-items: center;
 
     // Card Colors
     .card-headadmin {
@@ -73,7 +75,7 @@ a.apply:hover {
         flex-direction: row;
 
         background: transparent;
-        width: 25%;
+        width: 100%;
 
 
         border: 1px solid #82828280;
@@ -121,6 +123,17 @@ a.apply:hover {
     .card:hover {
         img {
             border-radius: 25%;
+        }
+    }
+}
+
+@media only screen and (min-width: 75rem) {
+    .staff-cards {
+        flex-direction: row;
+        justify-content: center;
+
+        .card {
+            width: 25%;
         }
     }
 }

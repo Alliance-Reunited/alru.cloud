@@ -46,7 +46,7 @@ class Staff extends React.Component {
                         <a href="https://forum.alru.ga/t/staff-applications" className="btn apply">Apply For Staff</a>
                     </div>
 
-                    <div className="staff-cards d-flex flex-wrap justify-content-center">
+                    <div className="staff-cards d-flex flex-wrap">
                         {/* Head Admins */}
                         <div className="card card-headadmin">
                             <img src={Zeropoint} alt="Zeropoint's profile picture" />
