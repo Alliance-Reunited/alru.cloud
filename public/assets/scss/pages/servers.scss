@@ -1,0 +1,60 @@
+tr {
+    color: white;
+    justify-content: center;
+
+    .bad {
+        color: #e74c3c;
+    }
+    .good {
+        color: #2ecc71;
+    }
+    .primary {
+        color: #9b59b6;
+    }
+}
+
+.gmod-title {
+    color: #3498db;
+    font-weight: bold;
+}
+
+button {
+    color: #FFF !important;
+    border-radius: 8px;
+    font-size: 1em !important;
+
+    padding: 0.5em !important;
+    transition: 0.3s;
+}
+
+button.gmod-btn {
+    background-color: #2059f7;
+    animation: fadeSplash 2s;
+}
+
+button.minecraft-btn {
+    background-color: #2ab556;
+    animation: fadeSplash 2.25s;
+}
+
+button.fivem-btn {
+    background-color: #f72020;
+    animation: fadeSplash 2.5s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+    transform: scale(90%);
+}
+
+a {
+    text-decoration: none;
+    color: #9b59b6;
+    transition: 0.1s;
+}
+
+a:hover {
+    color: #8e44ad;
+}
