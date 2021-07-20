@@ -40,6 +40,7 @@ class Staff extends React.Component {
                         <a href="https://forum.alru.ga/t/staff-applications"><button className="apply">Apply For Staff</button></a>
                     </div>
                     <div className="staff-cards d-flex flex-wrap justify-content-center">
+                        {/* Head Admins */}
                         <div className="card color-blue">
                             <img src={DamienVesper} alt="DamienVesper's profile picture" />
                             <div className="staff-card-info">
@@ -62,6 +63,7 @@ class Staff extends React.Component {
                             </div>
                         </div>
 
+                        {/* Admins */}
                         <div className="card color-red">
                             <img src={Zeropoint} alt="Zeropoint's profile picture" />
                             <div className="staff-card-info">
@@ -84,6 +86,7 @@ class Staff extends React.Component {
                             </div>
                         </div>
 
+                        {/* Sysadmins */}
                         <div className="card color-red">
                             <img src="http://www.gravatar.com/avatar/778caf96c7ab92e7202f0b3545d76061?s=1024" alt="Astrid's profile picture" />
                             <div className="staff-card-info">
