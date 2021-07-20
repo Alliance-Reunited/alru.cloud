@@ -16,12 +16,12 @@ class Servers extends React.Component {
                 <br />
 
                 {/* Garry's Mod */}
-                <h2 className="gmod-title mb-4">Garry&apos;s Mod</h2>
-                <table className="server-table table table-borderless">
+                <h2 className="gmod-title" id="gmod">Garry&apos;s Mod</h2>
+                <table className="server-table table table-borderless mt-4">
                     <thead>
                         <tr>
-                            <th scope="col">Name</th>
-                            <th scope="col">IP</th>
+                            <th>Name</th>
+                            <th>IP</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -30,50 +30,48 @@ class Servers extends React.Component {
                             <td><a href="steam://connect/207.225.26.83:65470">207.225.26.83:65470</a></td>
                         </tr>
                         <tr>
-                            <td>Among Us</td>
+                            <td>Among Us Royale</td>
                             <td><a href="steam://207.225.26.83:65443">207.225.26.83:65443</a></td>
                         </tr>
                         <tr>
-                            <td><span className="bad me-1">[COMING SOON]</span> South Park DarkRP</td>
+                            <td><span className="bad me-1">[SOON<sup>TM</sup>]</span> South Park DarkRP</td>
                             <td><a href="steam://connect/207.225.26.83:65448">207.225.26.83:65448</a></td>
                         </tr>
                     </tbody>
                 </table>
+                <br />
 
                 {/* Minecraft */}
-                <br />
-                <br />
-                <h3 className="mc-title">Minecraft</h3>
-                <table className="table">
+                <h3 className="mc-title" id="minecraft">Minecraft</h3>
+                <table className="server-table table table-borderless mt-4">
                     <thead>
                         <tr>
-                            <th scope="col">Server</th>
-                            <th scope="col">IP</th>
+                            <th>Name</th>
+                            <th>IP</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Replace Me!</td>
-                            <td><a href="steam://connect/207.225.26.83:65470">207.225.26.83:65470</a></td>
+                            <td><span className="bad me-1">[SOON<sup>TM</sup>]</span> AlruMC Network</td>
+                            <td><a href="#">mc.alru.ga</a></td>
                         </tr>
                     </tbody>
                 </table>
+                <br />
 
                 {/* FiveM */}
-                <br />
-                <br />
-                <h3 className="fivem-title">FiveM</h3>
-                <table className="table">
+                <h3 className="fivem-title" id="fivem">FiveM</h3>
+                <table className="server-table table table-borderless mt-4">
                     <thead>
                         <tr>
-                            <th scope="col">Server</th>
-                            <th scope="col">IP</th>
+                            <th>Name</th>
+                            <th>IP</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Replace Me!</td>
-                            <td><a href="steam://connect/207.225.26.83:65470">207.225.26.83:65470</a></td>
+                            <td><span className="bad me-1">[NEVER<sup>TM</sup>]</span> Drift</td>
+                            <td><a href="#">TBD</a></td>
                         </tr>
                     </tbody>
                 </table>
