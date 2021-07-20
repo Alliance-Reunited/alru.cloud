@@ -14,6 +14,7 @@ class Servers extends React.Component {
                 <h1>Servers</h1>
                 <h2>We have coolness</h2>
 
+                {/* Garry's Mod Servers */}
                 <br />
                 <br />
                 <h3 className="gmod-title">Garry's Mod</h3>
@@ -36,6 +37,44 @@ class Servers extends React.Component {
                         <tr>
                             <td><span className="bad">[COMING SOON]</span> South Park DarkRP</td>
                             <td><a href="steam://connect/207.225.26.83:65448">207.225.26.83:65448</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                {/* Minecraft */}
+                <br />
+                <br />
+                <h3 className="mc-title">Minecraft</h3>
+                <table className="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Server</th>
+                            <th scope="col">IP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Replace Me!</td>
+                            <td><a href="steam://connect/207.225.26.83:65470">207.225.26.83:65470</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                {/* FiveM */}
+                <br />
+                <br />
+                <h3 className="fivem-title">FiveM</h3>
+                <table className="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Server</th>
+                            <th scope="col">IP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Replace Me!</td>
+                            <td><a href="steam://connect/207.225.26.83:65470">207.225.26.83:65470</a></td>
                         </tr>
                     </tbody>
                 </table>

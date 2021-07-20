@@ -18,35 +18,14 @@ tr {
     font-weight: bold;
 }
 
-button {
-    color: #FFF !important;
-    border-radius: 8px;
-    font-size: 1em !important;
-
-    padding: 0.5em !important;
-    transition: 0.3s;
+.mc-title {
+    color: #2ecc71;
+    font-weight: bold;
 }
 
-button.gmod-btn {
-    background-color: #2059f7;
-    animation: fadeSplash 2s;
-}
-
-button.minecraft-btn {
-    background-color: #2ab556;
-    animation: fadeSplash 2.25s;
-}
-
-button.fivem-btn {
-    background-color: #f72020;
-    animation: fadeSplash 2.5s;
-}
-
-button:hover {
-    background-color: #ffffff;
-    color: #000000;
-
-    transform: scale(90%);
+.fivem-title {
+    color: #e67e22;
+    font-weight: bold;
 }
 
 a {
