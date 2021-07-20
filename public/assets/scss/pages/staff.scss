@@ -19,7 +19,10 @@ a.apply {
 }
 
 a.apply:hover {
-    background-color: #8e44ad;
+    background-color: #ffffff;
+    color: #000000;
+
+    transform: scale(90%);
 }
 
 .apply-wrapper {
