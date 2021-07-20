@@ -15,8 +15,8 @@ class Servers extends React.Component {
                 <br />
                 <br />
 
-                <h2 className="gmod-title">Garry&apos;s Mod</h2>
-                <table className="table">
+                <h2 className="gmod-title mb-4">Garry&apos;s Mod</h2>
+                <table className="server-table table table-borderless">
                     <thead>
                         <tr>
                             <th scope="col">Name</th>
