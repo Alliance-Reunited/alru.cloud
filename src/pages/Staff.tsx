@@ -36,9 +36,11 @@ class Staff extends React.Component {
                 </div>
 
                 <div className="container text-start mt-5">
+
                     <div className="top">
                         <a href="https://forum.alru.ga/t/staff-applications"><button className="apply">Apply For Staff</button></a>
                     </div>
+
                     <div className="staff-cards d-flex flex-wrap justify-content-center">
                         <div className="card color-blue">
                             <img src={DamienVesper} alt="DamienVesper's profile picture" />
@@ -47,6 +49,7 @@ class Staff extends React.Component {
                                 <h4 className="color-blue-text">DevOps</h4>
                             </div>
                         </div>
+
                         <div className="card color-blue">
                             <img src={Alpaps} alt="Alpaps' profile picture" />
                             <div className="staff-card-info">
@@ -54,6 +57,7 @@ class Staff extends React.Component {
                                 <h4 className="color-blue-text">Head Admin</h4>
                             </div>
                         </div>
+
                         <div className="card color-blue">
                             <img src={WarToWin} alt="WarToWin's profile picture" />
                             <div className="staff-card-info">
@@ -69,6 +73,7 @@ class Staff extends React.Component {
                                 <h4 className="color-red-text">Admin</h4>
                             </div>
                         </div>
+
                         <div className="card color-red">
                             <img src={Coelus} alt="Coelus' profile picture" />
                             <div className="staff-card-info">
@@ -76,6 +81,7 @@ class Staff extends React.Component {
                                 <h4 className="color-red-text">Admin</h4>
                             </div>
                         </div>
+
                         <div className="card color-red">
                             <img src={TheRandomGuy} alt="TheRandomGuy's profile picture" />
                             <div className="staff-card-info">
