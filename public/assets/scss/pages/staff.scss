@@ -82,6 +82,27 @@ p {
     }
 }
 
+button.apply {
+    animation: fadeSplash 1.3s;
+    border: none;
+    background-color: #9b59b6;
+    border-radius: 1em;
+    color: white;
+    padding: 1em 3em;
+    transition: 0.3s;
+}
+
+button.apply:hover {
+    background-color: #8e44ad;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 2em;
+}
+
 @keyframes fadeText {
     0% { opacity: 0; transform: translateY(-50px); }
     100% { opacity: 1; transform: translateY(0px);  }
