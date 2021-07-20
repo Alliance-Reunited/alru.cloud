@@ -1,3 +1,11 @@
+h1 {
+    animation: fadeText 1s;
+}
+
+p {
+    animation: fadeText 1.5s;
+}
+
 .staff-cards {
     display: flex;
     justify-content: center;
@@ -23,6 +31,7 @@
     }
 
     .card {
+        animation: fadeSplash 1.5s;
         padding: 1em;
         display: flex;
         justify-content: flex-start;
@@ -67,4 +76,15 @@
             }
         }
     }
+}
+
+@keyframes fadeText {
+    0% { opacity: 0; transform: translateY(-50px); }
+    100% { opacity: 1; transform: translateY(0px);  }
+}
+
+@keyframes fadeSplash {
+    0% { opacity: 0; }
+    50% { opacity: 0; transform: translateY(-25px); }
+    100% { opacity: 1; transform: translateY(0px); }
 }
