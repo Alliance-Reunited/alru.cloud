@@ -4,8 +4,6 @@ import { hot } from 'react-hot-loader';
 
 import '../../public/assets/scss/pages/home.scss';
 
-// import Logo from '../../public/assets/img/logos/splash.png';
-
 /**
  * The landing page of the website.
  */

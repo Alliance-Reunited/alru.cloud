@@ -4,8 +4,6 @@ import { hot } from 'react-hot-loader';
 
 import '../../public/assets/scss/pages/servers.scss';
 
-// import Logo from '../../public/assets/img/logos/splash.png';
-
 /**
  * A list of all available servers.
  */
