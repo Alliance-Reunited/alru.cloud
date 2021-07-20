@@ -27,9 +27,9 @@ class Staff extends React.Component {
     render = () => {
         return (
             <main className="text-center container">
-                <h1 className="mt-5">Our Staff</h1>
+                <h1 className="staff-title mt-5">Our Staff</h1>
                 <div className="w-75 mt-3 mx-auto">
-                    <p>
+                    <p className="staff-desc">
                         The staff members keeping this whole operation running behind the scenes.
                         Without the help from these amazing people, we would not be able to get to where we are today!
                     </p>

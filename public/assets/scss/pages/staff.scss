@@ -1,9 +1,33 @@
-h1 {
+h1.staff-title {
     animation: fadeText 1s;
 }
 
-p {
-    animation: fadeText 1.5s;
+p.staff-desc {
+    animation: fadeSplash 1.5s;
+}
+
+a.apply {
+    color: #ffffff;
+    background-color: #9b59b6;
+    padding: 1em 3em;
+
+    border: none;
+    border-radius: 1em;
+
+    animation: fadeSplash 2s;
+    transition: 0.3s;
+}
+
+a.apply:hover {
+    background-color: #8e44ad;
+}
+
+.apply-wrapper {
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    margin-bottom: 2em;
 }
 
 .staff-cards {
@@ -38,7 +62,7 @@ p {
         border: 1px solid #82828280;
         border-radius: 0.5rem;
 
-        animation: fadeSplash 1.5s;
+        animation: fadeSplash 2.25s;
         padding: 1em;
 
         img {
@@ -80,30 +104,6 @@ p {
             }
         }
     }
-}
-
-a.apply {
-    color: #ffffff;
-    background-color: #9b59b6;
-    padding: 1em 3em;
-
-    border: none;
-    border-radius: 1em;
-
-    animation: fadeSplash 1.3s;
-    transition: 0.3s;
-}
-
-a.apply:hover {
-    background-color: #8e44ad;
-}
-
-.apply-wrapper {
-    display: flex;
-    justify-content: center;
-
-    margin: 0;
-    margin-bottom: 2em;
 }
 
 @keyframes fadeText {
