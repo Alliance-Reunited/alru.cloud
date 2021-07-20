@@ -12,13 +12,16 @@ class Servers extends React.Component {
         return (
             <main className="text-center container">
                 <h1 className="mt-5">Our Staff</h1>
-                <p className="mt-3">
-                    The staff members keeping this whole operation running behind the scenes.
-                    Without the help from these amazing people, we would not be able to get to where we are today!
-                </p>
+                <div className="w-75 mt-3 mx-auto">
+                    <p>
+                        The staff members keeping this whole operation running behind the scenes.
+                        Without the help from these amazing people, we would not be able to get to where we are today!
+                    </p>
+                </div>
 
-                <div className="container">
-                    <div className="d-flex flex-row flex-wrap"></div>
+                <div className="container text-start mt-5">
+                    <div className="staff-cards">
+                    </div>
                 </div>
             </main>
         );
