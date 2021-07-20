@@ -11,13 +11,13 @@ class Servers extends React.Component {
     render = () => {
         return (
             <main className="text-center container">
-                <h1 className="mt-5">Servers</h1>
+                <h1 className="server-title mt-5">Servers</h1>
                 <br />
                 <br />
 
                 {/* Garry's Mod */}
                 <h2 className="gmod-title" id="gmod">Garry&apos;s Mod</h2>
-                <table className="server-table table table-borderless mt-4">
+                <table className="server-table table table-borderless mt-4" id="gmod-table">
                     <thead>
                         <tr>
                             <th>Name</th>
@@ -43,7 +43,7 @@ class Servers extends React.Component {
 
                 {/* Minecraft */}
                 <h3 className="mc-title" id="minecraft">Minecraft</h3>
-                <table className="server-table table table-borderless mt-4">
+                <table className="server-table table table-borderless mt-4" id="minecraft-table">
                     <thead>
                         <tr>
                             <th>Name</th>
@@ -61,7 +61,7 @@ class Servers extends React.Component {
 
                 {/* FiveM */}
                 <h3 className="fivem-title" id="fivem">FiveM</h3>
-                <table className="server-table table table-borderless mt-4">
+                <table className="server-table table table-borderless mt-4" id="fivem-table">
                     <thead>
                         <tr>
                             <th>Name</th>
