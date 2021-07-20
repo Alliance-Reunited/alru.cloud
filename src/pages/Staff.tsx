@@ -140,10 +140,10 @@ class Staff extends React.Component {
                                 <h4>Senior Mod</h4>
                             </div>
                         </div>
-                        <div className="card card-srmod" id="12">
-                            <img src={Althea} alt="Althea's profile picture" />
+                        <div className="card card-srmod">
+                            <img src={WarToWin} alt="WarToWin's profile picture" />
                             <div className="staff-card-info">
-                                <h3>Althea</h3>
+                                <h3>WarToWin</h3>
                                 <h4>Senior Mod</h4>
                             </div>
                         </div>
@@ -156,10 +156,10 @@ class Staff extends React.Component {
                                 <h4>Moderator</h4>
                             </div>
                         </div>
-                        <div className="card card-mod">
-                            <img src={WarToWin} alt="WarToWin's profile picture" />
+                        <div className="card card-mod" id="12">
+                            <img src={Althea} alt="Althea's profile picture" />
                             <div className="staff-card-info">
-                                <h3>WarToWin</h3>
+                                <h3>Althea</h3>
                                 <h4>Moderator</h4>
                             </div>
                         </div>
