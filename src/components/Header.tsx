@@ -36,6 +36,9 @@ class Header extends React.Component {
                                     <a href="https://forum.alru.ga" target="_blank" rel="noreferrer" className="nav-link">Forum</a>
                                 </li>
                                 <li className="nav-item">
+                                    <a href="https://github.com/Alliance-Reunited" target="_blank" rel="noreferrer" className="nav-link">Github</a>
+                                </li>
+                                <li className="nav-item">
                                     <a href="https://panel.alru.ga" target="_blank" rel="noreferrer" className="nav-link">Panel</a>
                                 </li>
                                 <li className="nav-item">
