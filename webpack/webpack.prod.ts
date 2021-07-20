@@ -51,7 +51,7 @@ const config = merge(common, {
         new HTMLWebpackPlugin({
             inject: true,
             template: path.resolve(__dirname, `../public/index.html`),
-            favicon: `./public/assets/img/logos/favicon.gif`,
+            favicon: `./public/assets/img/logos/favicon.png`,
 
             minify: {
                 removeComments: true,
