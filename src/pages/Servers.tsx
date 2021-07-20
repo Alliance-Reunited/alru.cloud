@@ -10,7 +10,7 @@ import '../../public/assets/scss/pages/servers.scss';
 class Servers extends React.Component {
     render = () => {
         return (
-            <main className="text-center container mt-5"></main>
+            <main className="text-center container"></main>
         );
     }
 }
