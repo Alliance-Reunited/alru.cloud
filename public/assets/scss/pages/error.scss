@@ -3,14 +3,14 @@ h1.error-header {
     font-weight: bold !important;
     margin: 0;
 
-    animation: fadeText 0.5s;
+    animation: fadeText 1s;
 }
 
 h3.error-subscript {
     font-size: 2em !important;
     margin: 0;
     color: rgb(200, 200, 200);
-    animation: fadeSplash 1s;
+    animation: fadeSplash 1.25s;
 }
 
 h4.error-subsubscript {
@@ -18,7 +18,7 @@ h4.error-subsubscript {
     margin: 0;
     margin-top: 0.5em;
     color: rgb(150, 150, 150);
-    animation: fadeSplash 1s;
+    animation: fadeSplash 1.5s;
 }
 
 @keyframes fadeText {
