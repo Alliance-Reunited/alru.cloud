@@ -1,23 +1,25 @@
+@import '../palette.scss';
+
 h1.server-title {
     animation: fastFadeIn 1s;
 }
 
 .gmod-title {
-    color: #3498db;
+    color: $gmod;
     font-weight: bold;
 
     animation: fadeIn 1.25s;
 }
 
 .mc-title {
-    color: #2ecc71;
+    color: $minecraft;
     font-weight: bold;
 
     animation: fadeIn 1.75s;
 }
 
 .fivem-title {
-    color: #e67e22;
+    color: $fivem;
     font-weight: bold;
 
     animation: fadeIn 2.25s;

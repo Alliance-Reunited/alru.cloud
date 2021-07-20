@@ -1,3 +1,5 @@
+@import '../palette.scss';
+
 h1.page-title {
     animation: fastFadeIn 1s;
 }
@@ -8,7 +10,7 @@ p.desc {
 
 div.game-btn-wrapper {
     a {
-        color: #FFF;
+        color: #ffffff;
         border-radius: 8px;
 
         padding: 16px 32px !important;
@@ -16,17 +18,17 @@ div.game-btn-wrapper {
     }
 
     a.gmod-btn {
-        background-color: #2059f7;
+        background-color: $gmod;
         animation: fadeIn 2s;
     }
 
     a.minecraft-btn {
-        background-color: #2ab556;
+        background-color: $minecraft;
         animation: fadeIn 2.25s;
     }
 
     a.fivem-btn {
-        background-color: #e67e22;
+        background-color: $fivem;
         animation: fadeIn 2.5s;
     }
 
