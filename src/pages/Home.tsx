@@ -18,7 +18,7 @@ class Home extends React.Component {
                     Join our Discord to be part of our amazing community today!
                 </p>
                 <div className="game-btn-wrapper container mt-5">
-                    <a href="/servers#gmod" className="gmod-btn btn btn-lg mx-1">Garry's Mod</a>
+                    <a href="/servers#gmod" className="gmod-btn btn btn-lg mx-1">Garry&apos;s Mod</a>
                     <a href="/servers#minecraft" className="minecraft-btn btn btn-lg mx-1">Minecraft</a>
                     <a href="/servers#fivem" className="fivem-btn btn btn-lg mx-1">FiveM</a>
                 </div>
