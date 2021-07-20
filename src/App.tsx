@@ -35,8 +35,13 @@ class App extends React.Component {
                             <Home />
                         </Route>
 
-                        {/* About Page */}
+                        {/* Servers Page */}
                         <Route exact path="/servers">
+                            <Servers />
+                        </Route>
+
+                        {/* Staff Page */}
+                        <Route exact path="/staff">
                             <Servers />
                         </Route>
 
