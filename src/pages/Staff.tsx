@@ -43,61 +43,61 @@ class Staff extends React.Component {
 
                     <div className="staff-cards d-flex flex-wrap justify-content-center">
                         {/* Head Admins */}
-                        <div className="card color-blue">
+                        <div className="card card-headadmin">
                             <img src={DamienVesper} alt="DamienVesper's profile picture" />
                             <div className="staff-card-info">
                                 <h3>DamienVesper</h3>
-                                <h4 className="color-blue-text">DevOps</h4>
+                                <h4>DevOps</h4>
                             </div>
                         </div>
 
-                        <div className="card color-blue">
+                        <div className="card card-headadmin">
                             <img src={Alpaps} alt="Alpaps' profile picture" />
                             <div className="staff-card-info">
                                 <h3>Alpaps</h3>
-                                <h4 className="color-blue-text">Head Admin</h4>
+                                <h4>Head Admin</h4>
                             </div>
                         </div>
 
-                        <div className="card color-blue">
+                        <div className="card card-headadmin">
                             <img src={WarToWin} alt="WarToWin's profile picture" />
                             <div className="staff-card-info">
-                                <h3>War To Win</h3>
-                                <h4 className="color-blue-text">Head Admin</h4>
+                                <h3>WarToWin</h3>
+                                <h4>Head Admin</h4>
                             </div>
                         </div>
 
                         {/* Admins */}
-                        <div className="card color-red">
+                        <div className="card card-admin">
                             <img src={Zeropoint} alt="Zeropoint's profile picture" />
                             <div className="staff-card-info">
                                 <h3>Zeropoint</h3>
-                                <h4 className="color-red-text">Admin</h4>
+                                <h4>Admin</h4>
                             </div>
                         </div>
 
-                        <div className="card color-red">
+                        <div className="card card-admin">
                             <img src={Coelus} alt="Coelus' profile picture" />
                             <div className="staff-card-info">
                                 <h3>Coleus</h3>
-                                <h4 className="color-red-text">Admin</h4>
+                                <h4>Admin</h4>
                             </div>
                         </div>
 
-                        <div className="card color-red">
+                        <div className="card card-admin">
                             <img src={TheRandomGuy} alt="TheRandomGuy's profile picture" />
                             <div className="staff-card-info">
                                 <h3>TheRandomGuy</h3>
-                                <h4 className="color-red-text">Admin</h4>
+                                <h4>Admin</h4>
                             </div>
                         </div>
 
                         {/* Sysadmins */}
-                        <div className="card color-red">
+                        <div className="card card-sysadmin">
                             <img src="http://www.gravatar.com/avatar/778caf96c7ab92e7202f0b3545d76061?s=1024" alt="Astrid's profile picture" />
                             <div className="staff-card-info">
                                 <h3>Astrid</h3>
-                                <h4 className="color-blue-text">Sysadmin</h4>
+                                <h4>Sysadmin</h4>
                             </div>
                         </div>
                     </div>

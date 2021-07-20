@@ -1,3 +1,5 @@
+@import '../palette.scss';
+
 h1.staff-title {
     animation: fastFadeIn 1s;
 }
@@ -37,20 +39,32 @@ a.apply:hover {
     gap: 0.5em;
 
     // Card Colors
-    .color-red-text {
-        color: #e74c3c;
+    .card-headadmin {
+        h4 { color: $headadmin; }
     }
 
-    .color-blue-text {
-        color: #3498db;
+    .card-admin {
+        h4 { color: $admin; }
     }
 
-    .color-green-text {
-        color: #2ecc71;
+    .card-sysadmin {
+        h4 { color: $sysadmin; }
     }
 
-    .color-primary-text {
-        color: #9b59b6;
+    .card-srmod {
+        h4 { color: $srmod; }
+    }
+
+    .card-mod {
+        h4 { color: $mod; }
+    }
+    
+    .card-dev {
+        h4 { color: $developer; }
+    }
+    
+    .card-helper {
+        h4 { color: $helper; }
     }
 
     .card {
