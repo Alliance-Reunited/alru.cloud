@@ -4,6 +4,22 @@ import { hot } from 'react-hot-loader';
 
 import '../../public/assets/scss/pages/staff.scss';
 
+import DamienVesper from '../../public/assets/img/staff/damienvesper.gif';
+import Alpaps from '../../public/assets/img/staff/alpaps.png';
+import WarToWin from '../../public/assets/img/staff/wartowin.png';
+
+import Zeropoint from '../../public/assets/img/staff/zeropoint.png';
+import TheRandomGuy from '../../public/assets/img/staff/therandomguy98.png';
+import Coelus from '../../public/assets/img/staff/coelusceer.png';
+
+// import Tokiwa from '../../public/assets/img/staff/tokiwa.png';
+// import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
+
+// import NeonWolf from '../../public/assets/img/staff/neonwolf.png';
+// import ReddevilG from '../../public/assets/img/staff/reddevilG.png';
+
+// import YaLocalFurryGuy from '../../public/assets/img/staff/yalocalfurryguy.gif';
+
 /**
  * The staff page.
  */
@@ -22,23 +38,21 @@ class Staff extends React.Component {
                 <div className="container text-start mt-5">
                     <div className="staff-cards d-flex flex-wrap justify-content-center">
                         <div className="card color-blue">
-                            <img src="https://alru.ga/static/media/damienvesper.cbf1a5a1.gif" alt="DamienVesper's profile picture" />
+                            <img src={DamienVesper} alt="DamienVesper's profile picture" />
                             <div className="staff-card-info">
                                 <h3>DamienVesper</h3>
                                 <h4 className="color-blue-text">DevOps</h4>
                             </div>
                         </div>
-
                         <div className="card color-blue">
-                            <img src="https://alru.ga/static/media/alpaps.94e0b068.png" alt="Alpaps' profile picture" />
+                            <img src={Alpaps} alt="Alpaps' profile picture" />
                             <div className="staff-card-info">
                                 <h3>Alpaps</h3>
                                 <h4 className="color-blue-text">Head Admin</h4>
                             </div>
                         </div>
-
                         <div className="card color-blue">
-                            <img src="https://alru.ga/static/media/wartowin.443e2512.png" alt="WarToWin's profile picture" />
+                            <img src={WarToWin} alt="WarToWin's profile picture" />
                             <div className="staff-card-info">
                                 <h3>War To Win</h3>
                                 <h4 className="color-blue-text">Head Admin</h4>
@@ -46,23 +60,21 @@ class Staff extends React.Component {
                         </div>
 
                         <div className="card color-red">
-                            <img src="https://alru.ga/static/media/zeropoint.3b7a16bb.png" alt="Zeropoint's profile picture" />
+                            <img src={Zeropoint} alt="Zeropoint's profile picture" />
                             <div className="staff-card-info">
                                 <h3>Zeropoint</h3>
                                 <h4 className="color-red-text">Admin</h4>
                             </div>
                         </div>
-
                         <div className="card color-red">
-                            <img src="https://alru.ga/static/media/coelusceer.68078ba3.png" alt="Coelus' profile picture" />
+                            <img src={Coelus} alt="Coelus' profile picture" />
                             <div className="staff-card-info">
                                 <h3>Coleus</h3>
                                 <h4 className="color-red-text">Admin</h4>
                             </div>
                         </div>
-
                         <div className="card color-red">
-                            <img src="https://alru.ga/static/media/therandomguy98.8ac971ea.png" alt="TheRandomGuy's profile picture" />
+                            <img src={TheRandomGuy} alt="TheRandomGuy's profile picture" />
                             <div className="staff-card-info">
                                 <h3>TheRandomGuy</h3>
                                 <h4 className="color-red-text">Admin</h4>
