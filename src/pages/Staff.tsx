@@ -7,7 +7,7 @@ import '../../public/assets/scss/pages/staff.scss';
 /**
  * The staff page.
  */
-class Servers extends React.Component {
+class Staff extends React.Component {
     render = () => {
         return (
             <main className="text-center container">
@@ -23,15 +23,15 @@ class Servers extends React.Component {
                     <div className="staff-cards">
 
                         <div className="card color-blue">
-                            <img src="https://alru.ga/static/media/damienvesper.cbf1a5a1.gif" alt=""/>
+                            <img src="https://alru.ga/static/media/damienvesper.cbf1a5a1.gif" alt="DamienVesper's profile picture" />
                             <div className="staff-card-info">
                                 <h3>DamienVesper</h3>
-                                <h4 className="color-blue-text">Head Admin, Systems Administrator, DevOps</h4>
+                                <h4 className="color-blue-text">DevOps</h4>
                             </div>
                         </div>
 
                         <div className="card color-blue">
-                            <img src="https://alru.ga/static/media/alpaps.94e0b068.png" alt=""/>
+                            <img src="https://alru.ga/static/media/alpaps.94e0b068.png" alt="Alpaps' profile picture" />
                             <div className="staff-card-info">
                                 <h3>Alpaps</h3>
                                 <h4 className="color-blue-text">Head Admin</h4>
@@ -39,7 +39,7 @@ class Servers extends React.Component {
                         </div>
 
                         <div className="card color-blue">
-                            <img src="https://alru.ga/static/media/wartowin.443e2512.png" alt=""/>
+                            <img src="https://alru.ga/static/media/wartowin.443e2512.png" alt="WarToWin's profile picture" />
                             <div className="staff-card-info">
                                 <h3>War To Win</h3>
                                 <h4 className="color-blue-text">Head Admin</h4>
@@ -47,7 +47,7 @@ class Servers extends React.Component {
                         </div>
 
                         <div className="card color-red">
-                            <img src="https://alru.ga/static/media/zeropoint.3b7a16bb.png" alt=""/>
+                            <img src="https://alru.ga/static/media/zeropoint.3b7a16bb.png" alt="Zeropoint's profile picture" />
                             <div className="staff-card-info">
                                 <h3>Zeropoint</h3>
                                 <h4 className="color-red-text">Admin</h4>
@@ -55,7 +55,7 @@ class Servers extends React.Component {
                         </div>
 
                         <div className="card color-red">
-                            <img src="https://alru.ga/static/media/coelusceer.68078ba3.png" alt=""/>
+                            <img src="https://alru.ga/static/media/coelusceer.68078ba3.png" alt="Coelus' profile picture" />
                             <div className="staff-card-info">
                                 <h3>Coleus</h3>
                                 <h4 className="color-red-text">Admin</h4>
@@ -63,7 +63,7 @@ class Servers extends React.Component {
                         </div>
 
                         <div className="card color-red">
-                            <img src="https://alru.ga/static/media/therandomguy98.8ac971ea.png" alt=""/>
+                            <img src="https://alru.ga/static/media/therandomguy98.8ac971ea.png" alt="TheRandomGuy's profile picture" />
                             <div className="staff-card-info">
                                 <h3>TheRandomGuy</h3>
                                 <h4 className="color-red-text">Admin</h4>
@@ -71,13 +71,12 @@ class Servers extends React.Component {
                         </div>
 
                         <div className="card color-red">
-                            <img src="http://www.gravatar.com/avatar/778caf96c7ab92e7202f0b3545d76061?s=1024" alt=""/>
+                            <img src="http://www.gravatar.com/avatar/778caf96c7ab92e7202f0b3545d76061?s=1024" alt="Astrid's profile picture" />
                             <div className="staff-card-info">
-                                <h3>TheLonelySysAdmin</h3>
-                                <h4 className="color-blue-text">Full-stack Engineer</h4>
+                                <h3>Astrid</h3>
+                                <h4 className="color-blue-text">Sysadmin</h4>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </main>
@@ -85,4 +84,4 @@ class Servers extends React.Component {
     }
 }
 
-export default hot(module)(Servers);
+export default hot(module)(Staff);
