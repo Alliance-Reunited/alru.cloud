@@ -10,17 +10,16 @@ import '../../public/assets/scss/pages/servers.scss';
 class Servers extends React.Component {
     render = () => {
         return (
-            <main className="text-center container mt-5">
-                <h1>Servers</h1>
-                <h2>We have coolness</h2>
+            <main className="text-center container">
+                <h1 className="mt-5">Servers</h1>
+                <br />
+                <br />
 
-                <br />
-                <br />
-                <h3 className="gmod-title">Garry's Mod</h3>
+                <h2 className="gmod-title">Garry&apos;s Mod</h2>
                 <table className="table">
                     <thead>
                         <tr>
-                            <th scope="col">Server</th>
+                            <th scope="col">Name</th>
                             <th scope="col">IP</th>
                         </tr>
                     </thead>
@@ -34,7 +33,7 @@ class Servers extends React.Component {
                             <td><a href="steam://207.225.26.83:65443">207.225.26.83:65443</a></td>
                         </tr>
                         <tr>
-                            <td><span className="bad">[COMING SOON]</span> South Park DarkRP</td>
+                            <td><span className="bad me-1">[COMING SOON]</span> South Park DarkRP</td>
                             <td><a href="steam://connect/207.225.26.83:65448">207.225.26.83:65448</a></td>
                         </tr>
                     </tbody>
