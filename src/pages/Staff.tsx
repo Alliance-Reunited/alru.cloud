@@ -43,7 +43,7 @@ class Staff extends React.Component {
                 <div className="container text-start mt-5">
 
                     <div className="apply-wrapper">
-                        <a href="https://forum.alru.ga/t/staff-applications" target="_blank" rel="noreferrer" className="btn apply">Apply For Staff</a>
+                        <a href="https://forum.alru.ga/" target="_blank" rel="noreferrer" className="btn apply">Apply For Staff</a>
                     </div>
 
                     <div className="staff-cards d-flex flex-wrap">

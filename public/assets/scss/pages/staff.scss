@@ -8,6 +8,22 @@ p.staff-desc {
     animation: fadeIn 1.5s;
 }
 
+p.applyText {
+    animation: fadeIn 2s;
+    color: rgb(200, 200, 200);
+    strong {
+        a {
+            text-decoration: none;
+            color: #9b59b6;
+            transition: 0.3s;
+        } 
+
+        a:hover {
+            color: #8e44ad;
+        }
+    }
+}
+
 a.apply {
     color: #ffffff;
     background-color: #9b59b6;
