@@ -41,10 +41,6 @@ class Staff extends React.Component {
                 </div>
 
                 <div className="container text-start mt-5">
-                    <div className="apply-wrapper">
-                        <a href="https://forum.alru.ga/" target="_blank" rel="noreferrer" className="btn apply">Apply For Staff</a>
-                    </div>
-
                     <div className="staff-cards d-flex flex-wrap">
                         {/* Head Admins */}
                         <div className="card card-headadmin" id="0">
