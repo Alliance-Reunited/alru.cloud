@@ -43,21 +43,21 @@ class Staff extends React.Component {
                 <div className="container text-start mt-5">
                     <div className="staff-cards d-flex flex-wrap">
                         {/* Head Admins */}
-                        <div className="card card-headadmin" id="0">
+                        <div className="card card-headadmin">
                             <img src={Zeropoint} alt="Zeropoint's profile picture" />
                             <div className="staff-card-info">
                                 <h3>Zeropoint</h3>
                                 <h4>Owner</h4>
                             </div>
                         </div>
-                        <div className="card card-headadmin" id="1">
+                        <div className="card card-headadmin">
                             <img src={DamienVesper} alt="DamienVesper's profile picture" />
                             <div className="staff-card-info">
                                 <h3>DamienVesper</h3>
                                 <h4>DevOps</h4>
                             </div>
                         </div>
-                        <div className="card card-headadmin" id="2">
+                        <div className="card card-headadmin">
                             <img src={Alpaps} alt="Alpaps' profile picture" />
                             <div className="staff-card-info">
                                 <h3>Alpaps</h3>
@@ -66,21 +66,14 @@ class Staff extends React.Component {
                         </div>
 
                         {/* Admins */}
-                        <div className="card card-admin" id="3">
-                            <img src={Coelus} alt="Coelus' profile picture" />
-                            <div className="staff-card-info">
-                                <h3>Coleus</h3>
-                                <h4>Admin</h4>
-                            </div>
-                        </div>
-                        <div className="card card-admin" id="4">
+                        <div className="card card-admin">
                             <img src={TheRandomGuy} alt="TheRandomGuy's profile picture" />
                             <div className="staff-card-info">
                                 <h3>TheRandomGuy</h3>
                                 <h4>Admin</h4>
                             </div>
                         </div>
-                        <div className="card card-admin" id="5">
+                        <div className="card card-admin">
                             <img src={Nong} alt="Nong_Ing's profile picture" />
                             <div className="staff-card-info">
                                 <h3>Nong_Ing</h3>
@@ -89,14 +82,14 @@ class Staff extends React.Component {
                         </div>
 
                         {/* Sysadmins */}
-                        <div className="card card-sysadmin" id="6">
+                        <div className="card card-sysadmin">
                             <img src={Astrid} alt="Astrid's profile picture" />
                             <div className="staff-card-info">
                                 <h3>Astrid</h3>
                                 <h4>Sysadmin</h4>
                             </div>
                         </div>
-                        <div className="card card-sysadmin" id="7">
+                        <div className="card card-sysadmin">
                             <img src={Arrow} alt="Arrow's profile picture" />
                             <div className="staff-card-info">
                                 <h3>Arrow</h3>
@@ -105,21 +98,21 @@ class Staff extends React.Component {
                         </div>
 
                         {/* Developers */}
-                        <div className="card card-dev" id="8">
+                        <div className="card card-dev">
                             <img src={Lion} alt="Lion's profile picture" />
                             <div className="staff-card-info">
                                 <h3>Lion</h3>
                                 <h4>Developer</h4>
                             </div>
                         </div>
-                        <div className="card card-dev" id="9">
+                        <div className="card card-dev">
                             <img src={Agent} alt="Agent's profile picture" />
                             <div className="staff-card-info">
                                 <h3>SolaceAgent</h3>
                                 <h4>Developer</h4>
                             </div>
                         </div>
-                        <div className="card card-dev" id="10">
+                        <div className="card card-dev">
                             <img src={ProtoLuke} alt="ProtoLuke's profile picture" />
                             <div className="staff-card-info">
                                 <h3>ProtoLuke</h3>
@@ -128,7 +121,7 @@ class Staff extends React.Component {
                         </div>
 
                         {/* Senior Mods */}
-                        <div className="card card-srmod" id="11">
+                        <div className="card card-srmod">
                             <img src={UranousRaptor} alt="UranousRaptor's profile picture" />
                             <div className="staff-card-info">
                                 <h3>UranousRaptor</h3>
@@ -142,6 +135,13 @@ class Staff extends React.Component {
                                 <h4>Senior Mod</h4>
                             </div>
                         </div>
+                        <div className="card card-srmod">
+                            <img src={Coelus} alt="Coelus' profile picture" />
+                            <div className="staff-card-info">
+                                <h3>Coleus</h3>
+                                <h4>Senior Mod</h4>
+                            </div>
+                        </div>
 
                         {/* Moderators */}
                         <div className="card card-mod">
@@ -151,7 +151,7 @@ class Staff extends React.Component {
                                 <h4>Moderator</h4>
                             </div>
                         </div>
-                        <div className="card card-mod" id="12">
+                        <div className="card card-mod">
                             <img src={Althea} alt="Althea's profile picture" />
                             <div className="staff-card-info">
                                 <h3>Althea</h3>
