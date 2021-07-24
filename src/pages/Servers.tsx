@@ -34,11 +34,11 @@ class Servers extends React.Component {
                             <td><a href="steam://connect/207.225.26.215:65436">207.225.26.215:65436</a></td>
                         </tr>
                         <tr>
-                            <td><span className="bad me-1">[NEVER<sup>TM</sup>]</span> South Park DarkRP</td>
+                            <td><span className="bad me-1">[SOON]</span> South Park DarkRP</td>
                             <td><a href="steam://connect/207.225.26.215:65437">207.225.26.215:65437</a></td>
                         </tr>
                         <tr>
-                            <td><span className="bad me-1">[SOON]</span> South Park DarkRP</td>
+                            <td><span className="bad me-1">[SOON]</span> City Park DarkRP</td>
                             <td><a href="steam://connect/207.225.26.215:65438">207.225.26.215:65438</a></td>
                         </tr>
                     </tbody>
