@@ -2,26 +2,33 @@ import React from 'react';
 
 import '../../public/assets/scss/pages/staff.scss';
 
+// Head Admin
+import Zeropoint from '../../public/assets/img/staff/zeropoint.png';
 import DamienVesper from '../../public/assets/img/staff/damienvesper.gif';
 import Alpaps from '../../public/assets/img/staff/alpaps.png';
-import Zeropoint from '../../public/assets/img/staff/zeropoint.png';
 
+// Admin
 import TheRandomGuy from '../../public/assets/img/staff/therandomguy98.png';
-import Coelus from '../../public/assets/img/staff/coelusceer.png';
 import Nong from '../../public/assets/img/staff/nong.png';
 
+// Sysadmin
 import Astrid from '../../public/assets/img/staff/astrid.jpeg';
 import Arrow from '../../public/assets/img/staff/arrow.png';
 
-import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
-import Althea from '../../public/assets/img/staff/althea.png';
-import Agent from '../../public/assets/img/staff/agent.png';
-
+// Developers
 import Lion from '../../public/assets/img/staff/lion.png';
-import NeonWolf from '../../public/assets/img/staff/neonwolf.png';
-import WarToWin from '../../public/assets/img/staff/wartowin.png';
-
+import Agent from '../../public/assets/img/staff/agent.png';
+import BLUDdev from '../../public/assets/img/staff/bluddev.png';
 import ProtoLuke from '../../public/assets/img/staff/protoluke.png';
+
+// Sr Mod
+import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
+import WarToWin from '../../public/assets/img/staff/wartowin.png';
+import Coelus from '../../public/assets/img/staff/coelusceer.png';
+
+// Mod
+import NeonWolf from '../../public/assets/img/staff/neonwolf.png';
+import Althea from '../../public/assets/img/staff/althea.png';
 
 /**
  * The staff page.
@@ -106,6 +113,13 @@ class Staff extends React.Component {
                         <img src={Agent} alt="Agent's profile picture" />
                         <div className="staff-card-info">
                             <h3>SolaceAgent</h3>
+                            <h4>Developer</h4>
+                        </div>
+                    </div>
+                    <div className="card card-dev">
+                        <img src={BLUDdev} alt="BLUDdev's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>BLUDdev</h3>
                             <h4>Developer</h4>
                         </div>
                     </div>
