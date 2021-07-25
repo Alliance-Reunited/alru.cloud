@@ -1,6 +1,4 @@
-// React libraries.
 import React from 'react';
-import { hot } from 'react-hot-loader';
 
 import '../../public/assets/scss/pages/staff.scss';
 
@@ -163,4 +161,4 @@ class Staff extends React.Component {
     );
 }
 
-export default hot(module)(Staff);
+export default Staff;

@@ -1,6 +1,4 @@
-// React libraries.
 import React from 'react';
-import { hot } from 'react-hot-loader';
 
 import '../../public/assets/scss/pages/servers.scss';
 
@@ -82,4 +80,4 @@ class Servers extends React.Component {
     );
 }
 
-export default hot(module)(Servers);
+export default Servers;
