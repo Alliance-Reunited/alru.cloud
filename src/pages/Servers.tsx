@@ -71,7 +71,7 @@ class Servers extends React.Component {
                 </thead>
                 <tbody>
                     <tr>
-                        <td><span className="bad me-1">[ABSOLUTELY NEVER<sup>TM</sup>]</span> Drift</td>
+                        <td><span className="bad me-1">[DEAD<sup>TM</sup>]</span> Drift</td>
                         <td><a href="#">TBD</a></td>
                     </tr>
                 </tbody>
