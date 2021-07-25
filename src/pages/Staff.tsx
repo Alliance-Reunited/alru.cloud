@@ -32,8 +32,8 @@ class Staff extends React.Component {
             <h1 className="staff-title mt-5">Our Staff</h1>
             <div className="w-75 mt-3 mx-auto">
                 <p className="staff-desc">
-                        The staff members keeping this whole operation running behind the scenes.
-                        Without the help from these amazing people, we would not be able to get to where we are today!
+                    The staff members keeping this whole operation running behind the scenes.
+                    Without the help from these amazing people, we would not be able to get to where we are today!
                 </p>
             </div>
 
