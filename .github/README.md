@@ -23,4 +23,4 @@ To build for production, run
 yarn build
 ```
 
-**NOTE:** This optimizes assets, takes time, and is not suitable for development. There is a sample NGINX configuration provided in the root directory of the project for this.
+**NOTE:** This optimizes assets, takes time, and is not suitable for development.
