@@ -98,6 +98,7 @@ a.apply:hover {
         border-radius: 0.5rem;
 
         padding: 1em;
+        transition: 0.3s;
 
         img {
             width: 5em;
@@ -152,6 +153,7 @@ a.apply:hover {
     .card:nth-child(15) { animation: fadeIn 6s; }
 
     .card:hover {
+        background-color: #82828240;
         img {
             border-radius: 25%;
         }
