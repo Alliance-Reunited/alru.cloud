@@ -59,23 +59,6 @@ class Servers extends React.Component {
                 </tbody>
             </table>
             <br />
-
-            {/* FiveM */}
-            <h3 className="fivem-title" id="fivem">FiveM</h3>
-            <table className="server-table table table-borderless mt-4" id="fivem-table">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>IP</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><span className="bad me-1">[DEAD<sup>TM</sup>]</span> Drift</td>
-                        <td><a href="#">TBD</a></td>
-                    </tr>
-                </tbody>
-            </table>
         </main>
     );
 }
