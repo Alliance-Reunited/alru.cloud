@@ -24,7 +24,7 @@ class Servers extends React.Component {
                 <tbody>
                     <tr>
                         <td>Family Guy DarkRP</td>
-                        <td><a href="steam://connect/207.225.26.215:65435">207.225.26.215:65435</a></td>
+                        <td><a href="steam://connect/65.21.242.45:9000">65.21.242.45:9000</a></td>
                     </tr>
                     <tr>
                         <td>Among Us Royale</td>
