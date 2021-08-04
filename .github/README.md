@@ -3,7 +3,7 @@
 <br />
 
 ### Installing Dependencies
-This project uses [Yarn](https://yarnpkg.com). It is advised not to mix package managers as this can result in inconsistent lockfiles across contributors.
+This project uses [Yarn](https://yarnpkg.com). It is advised not to mix package managers as this can result in inconsistent lockfiles.
 
 To install dependencies for this project, open a command line interface at the directory of your project, and run:
 ```sh
