@@ -22,5 +22,3 @@ To build for production, run
 ```sh
 yarn build
 ```
-
-**NOTE:** This optimizes assets, takes time, and is not suitable for development.
