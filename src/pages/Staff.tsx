@@ -18,7 +18,6 @@ import Arrow from '../../public/assets/img/staff/arrow.png';
 import Lion from '../../public/assets/img/staff/lion.png';
 import Agent from '../../public/assets/img/staff/agent.png';
 import BLUDdev from '../../public/assets/img/staff/bluddev.png';
-import ProtoLuke from '../../public/assets/img/staff/protoluke.png';
 
 // Sr Mod
 import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
@@ -118,13 +117,7 @@ class Staff extends React.Component {
                             <h4>Developer</h4>
                         </div>
                     </div>
-                    <div className="card card-dev">
-                        <img src={ProtoLuke} alt="ProtoLuke's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>ProtoLuke</h3>
-                            <h4>Developer</h4>
-                        </div>
-                    </div>
+
 
                     {/* Senior Mods */}
                     <div className="card card-srmod">
