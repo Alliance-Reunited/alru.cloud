@@ -118,7 +118,6 @@ class Staff extends React.Component {
                         </div>
                     </div>
 
-
                     {/* Senior Mods */}
                     <div className="card card-srmod">
                         <img src={UranousRaptor} alt="UranousRaptor's profile picture" />
