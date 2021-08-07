@@ -9,7 +9,6 @@ import Alpaps from '../../public/assets/img/staff/alpaps.png';
 
 // Admin
 import TheRandomGuy from '../../public/assets/img/staff/therandomguy98.png';
-import Nong from '../../public/assets/img/staff/nong.png';
 
 // Sysadmin
 import Astrid from '../../public/assets/img/staff/astrid.jpeg';
@@ -74,13 +73,6 @@ class Staff extends React.Component {
                         <img src={TheRandomGuy} alt="TheRandomGuy's profile picture" />
                         <div className="staff-card-info">
                             <h3>TheRandomGuy</h3>
-                            <h4>Admin</h4>
-                        </div>
-                    </div>
-                    <div className="card card-admin">
-                        <img src={Nong} alt="Nong_Ing's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Nong_Ing</h3>
                             <h4>Admin</h4>
                         </div>
                     </div>
