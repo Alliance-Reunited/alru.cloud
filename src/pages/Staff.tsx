@@ -29,6 +29,9 @@ import Coelus from '../../public/assets/img/staff/coelusceer.png';
 import NeonWolf from '../../public/assets/img/staff/neonwolf.png';
 import Althea from '../../public/assets/img/staff/althea.png';
 
+// Helper
+import Tupper from '../../public/assets/img/staff/tupper.png';
+
 /**
  * The staff page.
  */
@@ -159,6 +162,15 @@ class Staff extends React.Component {
                         <div className="staff-card-info">
                             <h3>Althea</h3>
                             <h4>Moderator</h4>
+                        </div>
+                    </div>
+
+                    {/* Helpers */}
+                    <div className="card card-helper">
+                        <img src={Tupper} alt="Tupper's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>Tupper</h3>
+                            <h4>Helper</h4>
                         </div>
                     </div>
                 </div>
