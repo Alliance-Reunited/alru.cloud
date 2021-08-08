@@ -11,7 +11,6 @@ import Alpaps from '../../public/assets/img/staff/alpaps.png';
 import TheRandomGuy from '../../public/assets/img/staff/therandomguy98.png';
 
 // Sysadmin
-import Astrid from '../../public/assets/img/staff/astrid.jpeg';
 import Arrow from '../../public/assets/img/staff/arrow.png';
 
 // Developers
@@ -80,13 +79,6 @@ class Staff extends React.Component {
                     </div>
 
                     {/* Sysadmins */}
-                    <div className="card card-sysadmin">
-                        <img src={Astrid} alt="Astrid's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Astrid</h3>
-                            <h4>Sysadmin</h4>
-                        </div>
-                    </div>
                     <div className="card card-sysadmin">
                         <img src={Arrow} alt="Arrow's profile picture" />
                         <div className="staff-card-info">
