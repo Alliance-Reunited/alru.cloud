@@ -21,7 +21,10 @@ class Header extends React.Component {
                                     <a href="/servers" className={`nav-link ${window.location.pathname === `/servers` ? `active disabled` : ``}`}>Servers</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/staff" className={`nav-link ${window.location.pathname === `/staff` ? `active disabled` : ``}`}>Our Staff</a>
+                                    <a href="/staff" className={`nav-link ${window.location.pathname === `/staff` ? `active disabled` : ``}`}>Our Team</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="/store" className="nav-link">Store</a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="https://pw.alru.ga" className="nav-link">IW4M</a>
