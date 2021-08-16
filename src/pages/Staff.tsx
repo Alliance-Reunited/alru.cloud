@@ -9,16 +9,13 @@ import Alpaps from '../../public/assets/img/staff/alpaps.png';
 
 // Admin
 import TheRandomGuy from '../../public/assets/img/staff/therandomguy98.png';
+import Agent from '../../public/assets/img/staff/agent.png';
 
 // Sysadmin
 import Arrow from '../../public/assets/img/staff/arrow.png';
 
-// Developers
-import Lion from '../../public/assets/img/staff/lion.png';
-import Agent from '../../public/assets/img/staff/agent.png';
-import BLUDdev from '../../public/assets/img/staff/bluddev.png';
-
 // Sr Mod
+import Lion from '../../public/assets/img/staff/lion.png';
 import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
 import WarToWin from '../../public/assets/img/staff/wartowin.png';
 import Coelus from '../../public/assets/img/staff/coelusceer.png';
@@ -27,8 +24,12 @@ import Coelus from '../../public/assets/img/staff/coelusceer.png';
 import NeonWolf from '../../public/assets/img/staff/neonwolf.png';
 import Althea from '../../public/assets/img/staff/althea.png';
 
+// Developers
+import BLUDdev from '../../public/assets/img/staff/bluddev.png';
+
 // Helper
 import Tupper from '../../public/assets/img/staff/tupper.png';
+import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
 /**
  * The staff page.
@@ -51,7 +52,7 @@ class Staff extends React.Component {
                         <img src={Zeropoint} alt="Zeropoint's profile picture" />
                         <div className="staff-card-info">
                             <h3>Zeropoint</h3>
-                            <h4>Owner</h4>
+                            <h4>Project Manager</h4>
                         </div>
                     </div>
                     <div className="card card-headadmin">
@@ -77,6 +78,13 @@ class Staff extends React.Component {
                             <h4>Admin</h4>
                         </div>
                     </div>
+                    <div className="card card-admin">
+                        <img src={Agent} alt="Agent's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>SolaceAgent</h3>
+                            <h4>Admin</h4>
+                        </div>
+                    </div>
 
                     {/* Sysadmins */}
                     <div className="card card-sysadmin">
@@ -87,30 +95,14 @@ class Staff extends React.Component {
                         </div>
                     </div>
 
-                    {/* Developers */}
-                    <div className="card card-dev">
+                    {/* Senior Mods */}
+                    <div className="card card-srmod">
                         <img src={Lion} alt="Lion's profile picture" />
                         <div className="staff-card-info">
                             <h3>Lion</h3>
                             <h4>Developer</h4>
                         </div>
                     </div>
-                    <div className="card card-dev">
-                        <img src={Agent} alt="Agent's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>SolaceAgent</h3>
-                            <h4>Developer</h4>
-                        </div>
-                    </div>
-                    <div className="card card-dev">
-                        <img src={BLUDdev} alt="BLUDdev's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>BLUDdev</h3>
-                            <h4>Developer</h4>
-                        </div>
-                    </div>
-
-                    {/* Senior Mods */}
                     <div className="card card-srmod">
                         <img src={UranousRaptor} alt="UranousRaptor's profile picture" />
                         <div className="staff-card-info">
@@ -149,11 +141,27 @@ class Staff extends React.Component {
                         </div>
                     </div>
 
+                    {/* Developers */}
+                    <div className="card card-dev">
+                        <img src={BLUDdev} alt="BLUDdev's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>BLUDdev</h3>
+                            <h4>Developer</h4>
+                        </div>
+                    </div>
+
                     {/* Helpers */}
                     <div className="card card-helper">
                         <img src={Tupper} alt="Tupper's profile picture" />
                         <div className="staff-card-info">
                             <h3>Tupper</h3>
+                            <h4>Helper</h4>
+                        </div>
+                    </div>
+                    <div className="card card-helper">
+                        <img src={Mumbo} alt="Mumbo's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>Mumbo</h3>
                             <h4>Helper</h4>
                         </div>
                     </div>
