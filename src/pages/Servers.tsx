@@ -2,9 +2,6 @@ import React from 'react';
 
 import '../../public/assets/scss/pages/servers.scss';
 
-/**
- * A list of all available servers.
- */
 class Servers extends React.Component {
     render = () => (
         <main className="text-center container">

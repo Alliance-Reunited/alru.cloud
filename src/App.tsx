@@ -19,9 +19,6 @@ import Staff from './pages/Staff';
 
 import Error404 from './pages/404';
 
-/**
- * The application layout.
- */
 class App extends React.Component {
     render = () => (
         <div id="app" className="text-light d-flex flex-column h-100">

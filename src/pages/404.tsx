@@ -2,9 +2,6 @@ import React from 'react';
 
 import '../../public/assets/scss/pages/error.scss';
 
-/**
- * The 404 page.
- */
 class Error404 extends React.Component {
     render = () => (
         <main className="text-center">

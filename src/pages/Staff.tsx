@@ -31,9 +31,6 @@ import BLUDdev from '../../public/assets/img/staff/bluddev.png';
 import Tupper from '../../public/assets/img/staff/tupper.png';
 import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
-/**
- * The staff page.
- */
 class Staff extends React.Component {
     render = () => (
         <main className="text-center container">

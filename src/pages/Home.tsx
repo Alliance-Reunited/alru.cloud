@@ -2,9 +2,6 @@ import React from 'react';
 
 import '../../public/assets/scss/pages/home.scss';
 
-/**
- * The landing page of the website.
- */
 class Home extends React.Component {
     render = () => (
         <main className="text-center container">
