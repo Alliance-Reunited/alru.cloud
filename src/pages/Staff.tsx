@@ -100,7 +100,7 @@ class Staff extends React.Component {
                         <img src={Lion} alt="Lion's profile picture" />
                         <div className="staff-card-info">
                             <h3>Lion</h3>
-                            <h4>Developer</h4>
+                            <h4>Senior Mod</h4>
                         </div>
                     </div>
                     <div className="card card-srmod">
