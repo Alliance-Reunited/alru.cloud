@@ -31,10 +31,10 @@ import BLUDdev from '../../public/assets/img/staff/bluddev.png';
 import Tupper from '../../public/assets/img/staff/tupper.png';
 import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
-class Staff extends React.Component {
+class OurTeam extends React.Component {
     render = () => (
         <main className="text-center container">
-            <h1 className="staff-title mt-5">Our Staff</h1>
+            <h1 className="staff-title mt-5">Our Team</h1>
             <div className="w-75 mt-3 mx-auto">
                 <p className="staff-desc">
                     The staff members keeping this whole operation running behind the scenes.
@@ -168,4 +168,4 @@ class Staff extends React.Component {
     );
 }
 
-export default Staff;
+export default OurTeam;

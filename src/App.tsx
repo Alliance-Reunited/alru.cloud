@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import Servers from './pages/Servers';
-import Staff from './pages/Staff';
+import OurTeam from './pages/OurTeam';
 
 import Error404 from './pages/404';
 
@@ -35,9 +35,9 @@ class App extends React.Component {
                         <Servers />
                     </Route>
 
-                    {/* Staff Page */}
-                    <Route exact path="/staff">
-                        <Staff />
+                    {/* Our Team */}
+                    <Route exact path="/our-team">
+                        <OurTeam />
                     </Route>
 
                     {/* 404 Handler */}

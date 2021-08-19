@@ -1,6 +1,5 @@
-import * as path from 'path';
-
 import * as Webpack from 'webpack';
+import * as path from 'path';
 
 interface Configuration extends Webpack.Configuration {
     devServer?: any
