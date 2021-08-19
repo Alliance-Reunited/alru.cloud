@@ -24,10 +24,10 @@ class Header extends React.Component {
                                     <a href="/our-team" className={`nav-link ${window.location.pathname === `/our-team` ? `active disabled` : ``}`}>Our Team</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/store" className="nav-link">Store</a>
+                                    <a href="/store" target="_blank" rel="noreferrer" className="nav-link">Store</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="https://pw.alru.ga" className="nav-link">IW4M</a>
+                                    <a href="https://pw.alru.ga" target="_blank" rel="noreferrer" className="nav-link">IW4M</a>
                                 </li>
                             </ul>
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
