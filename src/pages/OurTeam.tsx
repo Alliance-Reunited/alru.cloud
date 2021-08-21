@@ -25,7 +25,7 @@ import NeonWolf from '../../public/assets/img/staff/neonwolf.png';
 import Althea from '../../public/assets/img/staff/althea.png';
 
 // Developers
-import BLUDdev from '../../public/assets/img/staff/bluddev.png';
+import R0zemary from '../../public/assets/img/staff/r0zemary.png';
 
 // Helper
 import Tupper from '../../public/assets/img/staff/tupper.png';
@@ -140,9 +140,9 @@ class OurTeam extends React.Component {
 
                     {/* Developers */}
                     <div className="card card-dev">
-                        <img src={BLUDdev} alt="BLUDdev's profile picture" />
+                        <img src={R0zemary} alt="R0zemary's profile picture" />
                         <div className="staff-card-info">
-                            <h3>BLUDdev</h3>
+                            <h3>R0zemary</h3>
                             <h4>Developer</h4>
                         </div>
                     </div>
