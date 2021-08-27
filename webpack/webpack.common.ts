@@ -1,8 +1,10 @@
 import * as Webpack from 'webpack';
 import * as path from 'path';
 
+import WDS from 'webpack-dev-server';
+
 interface Configuration extends Webpack.Configuration {
-    devServer?: any
+    devServer?: WDS.Configuration
 }
 
 const config: Configuration = {
