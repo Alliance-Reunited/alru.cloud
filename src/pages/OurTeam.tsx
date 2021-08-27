@@ -8,7 +8,7 @@ import DamienVesper from '../../public/assets/img/staff/damienvesper.gif';
 import Alpaps from '../../public/assets/img/staff/alpaps.png';
 
 // Admin
-import TheRandomGuy from '../../public/assets/img/staff/therandomguy98.png';
+import TheRandomGuy98 from '../../public/assets/img/staff/therandomguy98.png';
 import Agent from '../../public/assets/img/staff/agent.png';
 
 // Sysadmin
@@ -67,7 +67,7 @@ class OurTeam extends React.Component {
 
                     {/* Admins */}
                     <div className="card card-admin">
-                        <img src={TheRandomGuy} alt="TheRandomGuy's profile picture" />
+                        <img src={TheRandomGuy98} alt="TheRandomGuy98's profile picture" />
                         <div className="staff-card-info">
                             <h3>TheRandomGuy98</h3>
                             <h4>Admin</h4>
