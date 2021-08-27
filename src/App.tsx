@@ -20,7 +20,7 @@ import OurTeam from './pages/OurTeam';
 import Error404 from './pages/404';
 
 class App extends React.Component {
-    render = () => (
+    render = (): React.ReactNode => (
         <div id="app" className="text-light d-flex flex-column h-100">
             <Header />
             <Router>

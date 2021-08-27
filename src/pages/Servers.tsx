@@ -3,7 +3,7 @@ import React from 'react';
 import '../../public/assets/scss/pages/servers.scss';
 
 class Servers extends React.Component {
-    render = () => (
+    render = (): React.ReactNode => (
         <main className="text-center container">
             <h1 className="server-title mt-5">Servers</h1>
             <br />

@@ -30,7 +30,7 @@ import Tokiwa from '../../public/assets/img/staff/Tokiwa.png';
 import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
 class OurTeam extends React.Component {
-    render = () => (
+    render = (): React.ReactNode => (
         <main className="text-center container">
             <h1 className="staff-title mt-5">Our Team</h1>
             <div className="w-75 mt-3 mx-auto">
