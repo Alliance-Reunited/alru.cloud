@@ -16,19 +16,17 @@ import Arrow from '../../public/assets/img/staff/arrow.png';
 
 // Sr Mod
 import Lion from '../../public/assets/img/staff/lion.png';
-import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
 import WarToWin from '../../public/assets/img/staff/wartowin.png';
 import Coelus from '../../public/assets/img/staff/coelusceer.png';
 
 // Mod
-import NeonWolf from '../../public/assets/img/staff/neonwolf.png';
-import Althea from '../../public/assets/img/staff/althea.png';
+import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
 
 // Developers
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
 
 // Helper
-import Tupper from '../../public/assets/img/staff/tupper.png';
+import Tokiwa from '../../public/assets/img/staff/Tokiwa.png';
 import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
 class OurTeam extends React.Component {
@@ -71,14 +69,14 @@ class OurTeam extends React.Component {
                     <div className="card card-admin">
                         <img src={TheRandomGuy} alt="TheRandomGuy's profile picture" />
                         <div className="staff-card-info">
-                            <h3>TheRandomGuy</h3>
+                            <h3>TheRandomGuy98</h3>
                             <h4>Admin</h4>
                         </div>
                     </div>
                     <div className="card card-admin">
                         <img src={Agent} alt="Agent's profile picture" />
                         <div className="staff-card-info">
-                            <h3>SolaceAgent</h3>
+                            <h3>Agent</h3>
                             <h4>Admin</h4>
                         </div>
                     </div>
@@ -101,13 +99,6 @@ class OurTeam extends React.Component {
                         </div>
                     </div>
                     <div className="card card-srmod">
-                        <img src={UranousRaptor} alt="UranousRaptor's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>UranousRaptor</h3>
-                            <h4>Senior Mod</h4>
-                        </div>
-                    </div>
-                    <div className="card card-srmod">
                         <img src={WarToWin} alt="WarToWin's profile picture" />
                         <div className="staff-card-info">
                             <h3>WarToWin</h3>
@@ -124,19 +115,19 @@ class OurTeam extends React.Component {
 
                     {/* Moderators */}
                     <div className="card card-mod">
-                        <img src={NeonWolf} alt="NeonWolf's profile picture" />
+                        <img src={UranousRaptor} alt="UranousRaptor's profile picture" />
                         <div className="staff-card-info">
-                            <h3>NeonWolf</h3>
+                            <h3>UranousRaptor</h3>
                             <h4>Moderator</h4>
                         </div>
                     </div>
-                    <div className="card card-mod">
-                        <img src={Althea} alt="Althea's profile picture" />
+                    {/* <div className="card card-mod">
+                        <img src={Averdime} alt="Averdime's profile picture" />
                         <div className="staff-card-info">
-                            <h3>Althea</h3>
+                            <h3>Averdime</h3>
                             <h4>Moderator</h4>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* Developers */}
                     <div className="card card-dev">
@@ -149,9 +140,9 @@ class OurTeam extends React.Component {
 
                     {/* Helpers */}
                     <div className="card card-helper">
-                        <img src={Tupper} alt="Tupper's profile picture" />
+                        <img src={Tokiwa} alt="Tokiwa's profile picture" />
                         <div className="staff-card-info">
-                            <h3>Tupper</h3>
+                            <h3>Tokiwa</h3>
                             <h4>Helper</h4>
                         </div>
                     </div>
