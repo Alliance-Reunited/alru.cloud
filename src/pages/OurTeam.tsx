@@ -21,6 +21,7 @@ import Coelus from '../../public/assets/img/staff/coelusceer.png';
 
 // Mod
 import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
+import Averdime from '../../public/assets/img/staff/averdime.png';
 
 // Developers
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
@@ -122,13 +123,13 @@ class OurTeam extends React.Component {
                             <h4>Moderator</h4>
                         </div>
                     </div>
-                    {/* <div className="card card-mod">
+                    <div className="card card-mod">
                         <img src={Averdime} alt="Averdime's profile picture" />
                         <div className="staff-card-info">
                             <h3>Averdime</h3>
                             <h4>Moderator</h4>
                         </div>
-                    </div> */}
+                    </div>
 
                     {/* Developers */}
                     <div className="card card-dev">
