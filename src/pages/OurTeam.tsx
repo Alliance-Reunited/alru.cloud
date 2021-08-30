@@ -21,8 +21,8 @@ import Coelus from '../../public/assets/img/staff/coelusceer.png';
 
 // Mod
 import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
-import Averdime from '../../public/assets/img/staff/averdime.jpg';
 import Mumbo from '../../public/assets/img/staff/mumbo.png';
+import Averdime from '../../public/assets/img/staff/averdime.jpg';
 
 // Developers
 import lleyton from '../../public/assets/img/staff/lleyton.png';
