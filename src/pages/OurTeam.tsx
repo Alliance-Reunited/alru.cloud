@@ -22,14 +22,14 @@ import Coelus from '../../public/assets/img/staff/coelusceer.png';
 // Mod
 import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
 import Averdime from '../../public/assets/img/staff/averdime.jpg';
+import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
 // Developers
 import lleyton from '../../public/assets/img/staff/lleyton.png';
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
 
 // Helper
-import Tokiwa from '../../public/assets/img/staff/tokiwa.png';
-import Mumbo from '../../public/assets/img/staff/mumbo.png';
+import TyraTheCat from '../../public/assets/img/staff/tyrathecat.png';
 import Storm from '../../public/assets/img/staff/storm.png';
 
 class OurTeam extends React.Component {
@@ -125,6 +125,13 @@ class OurTeam extends React.Component {
                         </div>
                     </div>
                     <div className="card card-mod">
+                        <img src={Mumbo} alt="Mumbo's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>Mumbo</h3>
+                            <h4>Moderator</h4>
+                        </div>
+                    </div>
+                    <div className="card card-mod">
                         <img src={Averdime} alt="Averdime's profile picture" />
                         <div className="staff-card-info">
                             <h3>Averdime</h3>
@@ -150,16 +157,9 @@ class OurTeam extends React.Component {
 
                     {/* Helpers */}
                     <div className="card card-helper">
-                        <img src={Tokiwa} alt="Tokiwa's profile picture" />
+                        <img src={TyraTheCat} alt="TyraTheCat's profile picture" />
                         <div className="staff-card-info">
-                            <h3>Tokiwa</h3>
-                            <h4>Helper</h4>
-                        </div>
-                    </div>
-                    <div className="card card-helper">
-                        <img src={Mumbo} alt="Mumbo's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Mumbo</h3>
+                            <h3>Tyra the Cat</h3>
                             <h4>Helper</h4>
                         </div>
                     </div>
