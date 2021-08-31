@@ -13,6 +13,7 @@ import Agent from '../../public/assets/img/staff/agent.png';
 
 // Sysadmin
 import Arrow from '../../public/assets/img/staff/arrow.png';
+import lleyton from '../../public/assets/img/staff/lleyton.png';
 
 // Sr Mod
 import Lion from '../../public/assets/img/staff/lion.png';
@@ -25,7 +26,6 @@ import Mumbo from '../../public/assets/img/staff/mumbo.png';
 import Averdime from '../../public/assets/img/staff/averdime.jpg';
 
 // Developers
-import lleyton from '../../public/assets/img/staff/lleyton.png';
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
 
 // Helper
@@ -92,6 +92,13 @@ class OurTeam extends React.Component {
                             <h4>Sysadmin</h4>
                         </div>
                     </div>
+                    <div className="card card-sysadmin">
+                        <img src={lleyton} alt="lleyton's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>lleyton</h3>
+                            <h4>Network Engineer</h4>
+                        </div>
+                    </div>
 
                     {/* Senior Mods */}
                     <div className="card card-srmod">
@@ -140,13 +147,6 @@ class OurTeam extends React.Component {
                     </div>
 
                     {/* Developers */}
-                    <div className="card card-dev">
-                        <img src={lleyton} alt="lleyton's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>lleyton</h3>
-                            <h4>Developer</h4>
-                        </div>
-                    </div>
                     <div className="card card-dev">
                         <img src={R0zemary} alt="R0zemary's profile picture" />
                         <div className="staff-card-info">
