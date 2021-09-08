@@ -3,7 +3,7 @@ import React from 'react';
 import '../../public/assets/scss/pages/staff.scss';
 
 // Head Admin
-import Zeropoint from '../../public/assets/img/staff/zeropoint.png';
+import Zeropoint from '../../public/assets/img/staff/zeropoint.gif';
 import DamienVesper from '../../public/assets/img/staff/damienvesper.gif';
 import Alpaps from '../../public/assets/img/staff/alpaps.png';
 
