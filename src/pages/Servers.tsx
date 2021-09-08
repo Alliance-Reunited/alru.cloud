@@ -21,7 +21,7 @@ class Servers extends React.Component {
                 <tbody>
                     <tr>
                         <td>Family Guy DarkRP</td>
-                        <td><a href="steam://connect/65.21.242.45:9000">65.21.242.45:9000</a></td>
+                        <td><a href="207.225.26.215:65435">207.225.26.215:65435</a></td>
                     </tr>
                     <tr>
                         <td>Among Us Royale</td>
@@ -30,10 +30,6 @@ class Servers extends React.Component {
                     <tr>
                         <td><span className="bad me-1">[SOON]</span> South Park DarkRP</td>
                         <td><a href="steam://connect/207.225.26.215:65437">207.225.26.215:65437</a></td>
-                    </tr>
-                    <tr>
-                        <td>CityRP</td>
-                        <td><a href="steam://connect/207.225.26.215:65438">207.225.26.215:65438</a></td>
                     </tr>
                 </tbody>
             </table>
