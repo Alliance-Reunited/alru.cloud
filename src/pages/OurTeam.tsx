@@ -30,7 +30,6 @@ import R0zemary from '../../public/assets/img/staff/r0zemary.png';
 
 // Helper
 import TyraTheCat from '../../public/assets/img/staff/tyrathecat.png';
-import Storm from '../../public/assets/img/staff/storm.png';
 
 class OurTeam extends React.Component {
     render = (): React.ReactNode => (
@@ -160,13 +159,6 @@ class OurTeam extends React.Component {
                         <img src={TyraTheCat} alt="TyraTheCat's profile picture" />
                         <div className="staff-card-info">
                             <h3>Tyra the Cat</h3>
-                            <h4>Helper</h4>
-                        </div>
-                    </div>
-                    <div className="card card-helper">
-                        <img src={Storm} alt="Storm's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Storm</h3>
                             <h4>Helper</h4>
                         </div>
                     </div>
