@@ -2,34 +2,31 @@ import React from 'react';
 
 import '../../public/assets/scss/pages/staff.scss';
 
-// Head Admin
+// Head Admins
 import Zeropoint from '../../public/assets/img/staff/zeropoint.gif';
 import DamienVesper from '../../public/assets/img/staff/damienvesper.gif';
 import Alpaps from '../../public/assets/img/staff/alpaps.png';
 
-// Admin
+// Admins
 import TheRandomGuy98 from '../../public/assets/img/staff/therandomguy98.png';
 import Agent from '../../public/assets/img/staff/agent.png';
+import WarToWin from '../../public/assets/img/staff/wartowin.png';
 
-// Sysadmin
+// System Administrators
 import Arrow from '../../public/assets/img/staff/arrow.png';
 import lleyton from '../../public/assets/img/staff/lleyton.png';
 
-// Sr Mod
+// Senior Mods
 import Lion from '../../public/assets/img/staff/lion.png';
-import WarToWin from '../../public/assets/img/staff/wartowin.png';
 import Coelus from '../../public/assets/img/staff/coelusceer.png';
+import Averdime from '../../public/assets/img/staff/averdime.jpg';
 
-// Mod
+// Moderators
 import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
 import Mumbo from '../../public/assets/img/staff/mumbo.png';
-import Averdime from '../../public/assets/img/staff/averdime.jpg';
 
 // Developers
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
-
-// Helper
-import TyraTheCat from '../../public/assets/img/staff/tyrathecat.png';
 
 class OurTeam extends React.Component {
     render = (): React.ReactNode => (
@@ -82,6 +79,13 @@ class OurTeam extends React.Component {
                             <h4>Admin</h4>
                         </div>
                     </div>
+                    <div className="card card-admin">
+                        <img src={WarToWin} alt="WarToWin's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>WarToWin</h3>
+                            <h4>Admin</h4>
+                        </div>
+                    </div>
 
                     {/* Sysadmins */}
                     <div className="card card-sysadmin">
@@ -108,16 +112,16 @@ class OurTeam extends React.Component {
                         </div>
                     </div>
                     <div className="card card-srmod">
-                        <img src={WarToWin} alt="WarToWin's profile picture" />
+                        <img src={Coelus} alt="Coelus' profile picture" />
                         <div className="staff-card-info">
-                            <h3>WarToWin</h3>
+                            <h3>Coleus</h3>
                             <h4>Senior Mod</h4>
                         </div>
                     </div>
                     <div className="card card-srmod">
-                        <img src={Coelus} alt="Coelus' profile picture" />
+                        <img src={Averdime} alt="Averdime's profile picture" />
                         <div className="staff-card-info">
-                            <h3>Coleus</h3>
+                            <h3>Averdime</h3>
                             <h4>Senior Mod</h4>
                         </div>
                     </div>
@@ -137,13 +141,6 @@ class OurTeam extends React.Component {
                             <h4>Moderator</h4>
                         </div>
                     </div>
-                    <div className="card card-mod">
-                        <img src={Averdime} alt="Averdime's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Averdime</h3>
-                            <h4>Moderator</h4>
-                        </div>
-                    </div>
 
                     {/* Developers */}
                     <div className="card card-dev">
@@ -151,15 +148,6 @@ class OurTeam extends React.Component {
                         <div className="staff-card-info">
                             <h3>R0zemary</h3>
                             <h4>Developer</h4>
-                        </div>
-                    </div>
-
-                    {/* Helpers */}
-                    <div className="card card-helper">
-                        <img src={TyraTheCat} alt="TyraTheCat's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Tyra the Cat</h3>
-                            <h4>Helper</h4>
                         </div>
                     </div>
                 </div>
