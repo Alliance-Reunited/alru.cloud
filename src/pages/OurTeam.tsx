@@ -28,7 +28,7 @@ import Mumbo from '../../public/assets/img/staff/mumbo.png';
 // Developers
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
 
-//Helpers
+// Helpers
 import Tupper from '../../public/assets/img/staff/tupper.png';
 
 class OurTeam extends React.Component {
