@@ -28,6 +28,9 @@ import Mumbo from '../../public/assets/img/staff/mumbo.png';
 // Developers
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
 
+//Helpers
+import Tupper from '../../public/assets/img/staff/tupper.png';
+
 class OurTeam extends React.Component {
     render = (): React.ReactNode => (
         <main className="text-center container">
@@ -148,6 +151,15 @@ class OurTeam extends React.Component {
                         <div className="staff-card-info">
                             <h3>R0zemary</h3>
                             <h4>Developer</h4>
+                        </div>
+                    </div>
+
+                    {/* Helpers */}
+                    <div className="card card-helper">
+                        <img src={Tupper} alt="Tupper's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>Tupper</h3>
+                            <h4>Helper</h4>
                         </div>
                     </div>
                 </div>
