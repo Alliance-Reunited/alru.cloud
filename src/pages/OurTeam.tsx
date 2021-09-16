@@ -13,7 +13,7 @@ import Agent from '../../public/assets/img/staff/agent.png';
 import WarToWin from '../../public/assets/img/staff/wartowin.png';
 
 // System Administrators
-import Arrow from '../../public/assets/img/staff/arrow.png';
+import Arrow from '../../public/assets/img/staff/arrow.jpg';
 import lleyton from '../../public/assets/img/staff/lleyton.png';
 
 // Senior Mods
