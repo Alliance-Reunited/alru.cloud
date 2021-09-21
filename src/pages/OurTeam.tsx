@@ -20,10 +20,10 @@ import lleyton from '../../public/assets/img/staff/lleyton.png';
 import Lion from '../../public/assets/img/staff/lion.png';
 import Coelus from '../../public/assets/img/staff/coelusceer.png';
 import Averdime from '../../public/assets/img/staff/averdime.jpg';
+import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
 // Moderators
 import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
-import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
 // Developers
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
@@ -128,6 +128,13 @@ class OurTeam extends React.Component {
                             <h4>Senior Mod</h4>
                         </div>
                     </div>
+                    <div className="card card-srmod">
+                        <img src={Mumbo} alt="Mumbo's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>Mumbo</h3>
+                            <h4>Senior Mod</h4>
+                        </div>
+                    </div>
 
                     {/* Moderators */}
                     <div className="card card-mod">
@@ -137,13 +144,7 @@ class OurTeam extends React.Component {
                             <h4>Moderator</h4>
                         </div>
                     </div>
-                    <div className="card card-mod">
-                        <img src={Mumbo} alt="Mumbo's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Mumbo</h3>
-                            <h4>Moderator</h4>
-                        </div>
-                    </div>
+               
 
                     {/* Developers */}
                     <div className="card card-dev">
