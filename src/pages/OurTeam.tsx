@@ -23,8 +23,7 @@ import Averdime from '../../public/assets/img/staff/averdime.jpg';
 import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
 // Moderators
-import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
-import ProtoLuke from '../../public/assets/img/staff/protoluke.png'
+import ProtoLuke from '../../public/assets/img/staff/protoluke.png';
 
 // Developers
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
@@ -145,7 +144,6 @@ class OurTeam extends React.Component {
                             <h4>Moderator</h4>
                         </div>
                     </div>
-               
 
                     {/* Developers */}
                     <div className="card card-dev">
