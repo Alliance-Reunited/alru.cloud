@@ -139,13 +139,6 @@ class OurTeam extends React.Component {
 
                     {/* Moderators */}
                     <div className="card card-mod">
-                        <img src={UranousRaptor} alt="UranousRaptor's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>UranousRaptor</h3>
-                            <h4>Moderator</h4>
-                        </div>
-                    </div>
-                    <div className="card card-mod">
                         <img src={ProtoLuke} alt="ProtoLuke's profile picture" />
                         <div className="staff-card-info">
                             <h3>ProtoLuke</h3>
