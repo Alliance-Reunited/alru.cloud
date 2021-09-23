@@ -145,9 +145,9 @@ class OurTeam extends React.Component {
                             <h4>Moderator</h4>
                         </div>
                     </div>
-                    <div classname="card card-mod">
+                    <div className="card card-mod">
                         <img src={ProtoLuke} alt="ProtoLuke's profile picture" />
-                        <div classname="staff-card-info">
+                        <div className="staff-card-info">
                             <h3>ProtoLuke</h3>
                             <h4>Moderator</h4>
                         </div>
