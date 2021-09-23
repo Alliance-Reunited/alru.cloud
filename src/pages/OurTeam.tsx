@@ -24,6 +24,7 @@ import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
 // Moderators
 import UranousRaptor from '../../public/assets/img/staff/uranousraptor75.png';
+import ProtoLuke from '../../public/assets/img/staff/protoluke.png'
 
 // Developers
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
@@ -141,6 +142,13 @@ class OurTeam extends React.Component {
                         <img src={UranousRaptor} alt="UranousRaptor's profile picture" />
                         <div className="staff-card-info">
                             <h3>UranousRaptor</h3>
+                            <h4>Moderator</h4>
+                        </div>
+                    </div>
+                    <div classname="card card-mod">
+                        <img src={ProtoLuke} alt="ProtoLuke's profile picture" />
+                        <div classname="staff-card-info">
+                            <h3>ProtoLuke</h3>
                             <h4>Moderator</h4>
                         </div>
                     </div>
