@@ -40,6 +40,10 @@ class OurTeam extends React.Component {
                     The staff members keeping this whole operation running behind the scenes.
                     Without the help from these amazing people, we would not be able to get to where we are today!
                 </p>
+
+                <div className="apply-wrapper">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdK4c2727ufXOw3hCJTMj9NtlKjWd-SFsX755KEmn_EkfVPrA/viewform" target="_blank" rel="noreferrer" className="btn apply">Apply For Staff</a>
+                </div>
             </div>
 
             <div className="container text-start mt-5">
