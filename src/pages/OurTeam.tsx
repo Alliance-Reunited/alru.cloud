@@ -12,9 +12,8 @@ import TheRandomGuy98 from '../../public/assets/img/staff/therandomguy98.png';
 import Agent from '../../public/assets/img/staff/agent.png';
 import WarToWin from '../../public/assets/img/staff/wartowin.png';
 
-// System Administrators
+// Sysadmins
 import Arrow from '../../public/assets/img/staff/arrow.jpg';
-import lleyton from '../../public/assets/img/staff/lleyton.png';
 
 // Senior Mods
 import Lion from '../../public/assets/img/staff/lion.png';
@@ -100,13 +99,6 @@ class OurTeam extends React.Component {
                         <div className="staff-card-info">
                             <h3>Arrow</h3>
                             <h4>Sysadmin</h4>
-                        </div>
-                    </div>
-                    <div className="card card-sysadmin">
-                        <img src={lleyton} alt="lleyton's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>lleyton</h3>
-                            <h4>Network Engineer</h4>
                         </div>
                     </div>
 
