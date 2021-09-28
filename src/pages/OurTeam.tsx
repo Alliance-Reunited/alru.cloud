@@ -27,6 +27,9 @@ import ProtoLuke from '../../public/assets/img/staff/protoluke.png';
 // Developers
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
 
+//Helpers
+import Darky from '../../public/assets/img/staff/darky.png';
+
 class OurTeam extends React.Component {
     render = (): React.ReactNode => (
         <main className="text-center container">
@@ -137,13 +140,20 @@ class OurTeam extends React.Component {
                             <h4>Moderator</h4>
                         </div>
                     </div>
-
-                    {/* Developers */}
-                    <div className="card card-dev">
+                    <div className="card card-mod">
                         <img src={R0zemary} alt="R0zemary's profile picture" />
                         <div className="staff-card-info">
                             <h3>R0zemary</h3>
-                            <h4>Developer</h4>
+                            <h4>Mooderator</h4>
+                        </div>
+                    </div>
+
+                    {/* Helpers */}
+                    <div className="card card-helper">
+                        <img src={Darky} alt="Darky's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>Darky</h3>
+                            <h4>Helper</h4>
                         </div>
                     </div>
                 </div>
