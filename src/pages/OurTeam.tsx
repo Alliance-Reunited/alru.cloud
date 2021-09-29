@@ -27,7 +27,7 @@ import ProtoLuke from '../../public/assets/img/staff/protoluke.png';
 // Developers
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
 
-//Helpers
+// Helpers
 import Darky from '../../public/assets/img/staff/darky.png';
 
 class OurTeam extends React.Component {
