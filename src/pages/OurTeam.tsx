@@ -144,7 +144,7 @@ class OurTeam extends React.Component {
                         <img src={R0zemary} alt="R0zemary's profile picture" />
                         <div className="staff-card-info">
                             <h3>R0zemary</h3>
-                            <h4>Mooderator</h4>
+                            <h4>Moderator</h4>
                         </div>
                     </div>
 
