@@ -2,9 +2,6 @@ import React from 'react';
 
 import '../../public/assets/scss/components/header.scss';
 
-/**
- * The header of the website.
- */
 class Header extends React.Component {
     render = (): React.ReactNode => {
         return (
