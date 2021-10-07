@@ -19,7 +19,6 @@ import Arrow from '../../public/assets/img/staff/arrow.jpg';
 import Lion from '../../public/assets/img/staff/lion.png';
 import Coelus from '../../public/assets/img/staff/coelusceer.png';
 import Averdime from '../../public/assets/img/staff/averdime.jpg';
-import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
 // Moderators
 import ProtoLuke from '../../public/assets/img/staff/protoluke.png';
