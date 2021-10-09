@@ -19,7 +19,6 @@ import Arrow from '../../public/assets/img/staff/arrow.jpg';
 import Lion from '../../public/assets/img/staff/lion.png';
 import Coelus from '../../public/assets/img/staff/coelusceer.png';
 import Averdime from '../../public/assets/img/staff/averdime.jpg';
-import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
 // Moderators
 import ProtoLuke from '../../public/assets/img/staff/protoluke.png';
@@ -122,13 +121,6 @@ class OurTeam extends React.Component {
                         <img src={Averdime} alt="Averdime's profile picture" />
                         <div className="staff-card-info">
                             <h3>Averdime</h3>
-                            <h4>Senior Mod</h4>
-                        </div>
-                    </div>
-                    <div className="card card-srmod">
-                        <img src={Mumbo} alt="Mumbo's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Mumbo</h3>
                             <h4>Senior Mod</h4>
                         </div>
                     </div>
