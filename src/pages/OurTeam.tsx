@@ -22,7 +22,7 @@ import Averdime from '../../public/assets/img/staff/averdime.jpg';
 
 // Moderators
 import ProtoLuke from '../../public/assets/img/staff/protoluke.png';
-import TyraTheCat from '../../public/assets/img/staff/priyus.png';
+import TyraTheCat from '../../public/assets/img/staff/tyrathecat.png';
 
 // Developers
 import R0zemary from '../../public/assets/img/staff/r0zemary.png';
