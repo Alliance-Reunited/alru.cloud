@@ -29,6 +29,7 @@ import R0zemary from '../../public/assets/img/staff/r0zemary.png';
 
 // Helpers
 import Darky from '../../public/assets/img/staff/darky.png';
+import Zyv from '../../public/assets/img/staff/zyv.png';
 
 class OurTeam extends React.Component {
     render = (): React.ReactNode => (
@@ -153,6 +154,13 @@ class OurTeam extends React.Component {
                         <img src={Darky} alt="Darky's profile picture" />
                         <div className="staff-card-info">
                             <h3>Darky</h3>
+                            <h4>Helper</h4>
+                        </div>
+                    </div>
+                    <div className="card card-helper">
+                        <img src={Zyv} alt="Zyv's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>Zyv</h3>
                             <h4>Helper</h4>
                         </div>
                     </div>
