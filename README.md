@@ -1,4 +1,4 @@
-<h1 align="center">alru.ga</h1>
+<h1 align="center">alru.xyz</h1>
 <h3 align="center">The Alliance Reunited website.</h3>
 <br />
 
