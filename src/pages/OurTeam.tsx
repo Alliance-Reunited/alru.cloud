@@ -24,9 +24,6 @@ import Averdime from '../../public/assets/img/staff/averdime.jpg';
 import ProtoLuke from '../../public/assets/img/staff/protoluke.png';
 import TyraTheCat from '../../public/assets/img/staff/tyrathecat.png';
 
-// Developers
-import R0zemary from '../../public/assets/img/staff/r0zemary.png';
-
 // Helpers
 import Darky from '../../public/assets/img/staff/darky.png';
 import Zyv from '../../public/assets/img/staff/zyv.png';
@@ -131,13 +128,6 @@ class OurTeam extends React.Component {
                         <img src={ProtoLuke} alt="ProtoLuke's profile picture" />
                         <div className="staff-card-info">
                             <h3>ProtoLuke</h3>
-                            <h4>Moderator</h4>
-                        </div>
-                    </div>
-                    <div className="card card-mod">
-                        <img src={R0zemary} alt="R0zemary's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>R0zemary</h3>
                             <h4>Moderator</h4>
                         </div>
                     </div>
