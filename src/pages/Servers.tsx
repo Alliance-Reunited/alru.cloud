@@ -21,15 +21,15 @@ class Servers extends React.Component {
                 <tbody>
                     <tr>
                         <td>Family Guy DarkRP</td>
-                        <td><a href="207.225.26.215:65435">207.225.26.215:65435</a></td>
+                        <td><a href="apollo.alru.ga:65435">apollo.alru.ga:65435</a></td>
                     </tr>
                     <tr>
                         <td>Among Us Royale</td>
-                        <td><a href="steam://connect/207.225.26.215:65436">207.225.26.215:65436</a></td>
+                        <td><a href="steam://connect/apollo.alru.ga:65436">apollo.alru.ga:65436</a></td>
                     </tr>
                     <tr>
                         <td><span className="bad me-1">[SOON]</span> South Park DarkRP</td>
-                        <td><a href="steam://connect/207.225.26.215:65437">207.225.26.215:65437</a></td>
+                        <td><a href="steam://connect/apollo.alru.ga:65437">apollo.alru.ga:65437</a></td>
                     </tr>
                 </tbody>
             </table>
