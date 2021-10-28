@@ -14,6 +14,7 @@ import WarToWin from '../../public/assets/img/staff/wartowin.png';
 
 // Sysadmins
 import Arrow from '../../public/assets/img/staff/arrow.jpg';
+import Axite from '../../public/assets/img/staff/axite.png';
 
 // Senior Mods
 import Lion from '../../public/assets/img/staff/lion.png';
@@ -96,6 +97,13 @@ class OurTeam extends React.Component {
                         <img src={Arrow} alt="Arrow's profile picture" />
                         <div className="staff-card-info">
                             <h3>Arrow</h3>
+                            <h4>Sysadmin</h4>
+                        </div>
+                    </div>
+                    <div className="card card-sysadmin">
+                        <img src={Axite} alt="Axite's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>Axite</h3>
                             <h4>Sysadmin</h4>
                         </div>
                     </div>
