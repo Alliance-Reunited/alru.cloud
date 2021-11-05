@@ -3,7 +3,7 @@ import React from 'react';
 
 import {
     BrowserRouter as Router,
-    Switch,
+    Routes,
     Route
 } from 'react-router-dom';
 
@@ -24,27 +24,17 @@ class App extends React.Component {
         <div id="app" className="text-light d-flex flex-column h-100">
             <Header />
             <Router>
-                <Switch>
+                <Routes>
                     {/* Landing Page */}
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
+                    <Route path="/" element={<Home />} />
 
-                    {/* Servers Page */}
-                    <Route exact path="/servers">
-                        <Servers />
-                    </Route>
-
-                    {/* Our Team */}
-                    <Route exact path="/our-team">
-                        <OurTeam />
-                    </Route>
+                    {/* Other Pages */}
+                    <Route path="/servers" element={<Servers />} />
+                    <Route path="/our-team" element={<OurTeam />} />
 
                     {/* 404 Handler */}
-                    <Route path="/">
-                        <Error404 />
-                    </Route>
-                </Switch>
+                    <Route path="/*" element={<Error404 />} />
+                </Routes>
             </Router>
             <Footer />
         </div>
