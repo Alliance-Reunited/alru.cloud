@@ -28,6 +28,7 @@ import TyraTheCat from '../../public/assets/img/staff/tyrathecat.png';
 // Helpers
 import Darky from '../../public/assets/img/staff/darky.png';
 import Zyv from '../../public/assets/img/staff/zyv.png';
+import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
 class OurTeam extends React.Component {
     render = (): React.ReactNode => (
@@ -162,6 +163,12 @@ class OurTeam extends React.Component {
                             <h4>Helper</h4>
                         </div>
                     </div>
+                    <div className="card card-helper">
+                        <img src={Mumbo} alt="Mumbo's profile picture" />
+                        <div className="staff-card-info">
+                            <h3>Mumbo</h3>
+                            <h4>Helper</h4>
+                        </div>
                 </div>
             </div>
         </main>
