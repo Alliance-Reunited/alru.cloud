@@ -30,6 +30,40 @@ import Darky from '../../public/assets/img/staff/darky.png';
 import Zyv from '../../public/assets/img/staff/zyv.png';
 import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
+class StaffCard extends React.Component<{ name: string, rank: `HEAD ADMIN` | `ADMIN` | `SYSADMIN` | `SRMOD` | `MOD` | `DEVELOPER` | `HELPER` | `CUSTOM`, pfp: any, customRank?: string }> {
+    render = (): React.ReactNode => (
+        <div className={
+            `card card-${
+                this.props.rank === `HEAD ADMIN`
+                    ? `headadmin`
+                    : this.props.rank.toLowerCase()
+            }`}>
+
+            <img src={this.props.pfp} alt={`${this.props.name}'s profile picture`} />
+            <div className="staff-card-info">
+                <h3>{this.props.name}</h3>
+                <h4>{
+                    this.props.rank === `CUSTOM` && this.props.customRank != null
+                        ? this.props.customRank
+                        : this.props.rank === `HEAD ADMIN`
+                            ? `Head Admin`
+                            : this.props.rank === `ADMIN`
+                                ? `Admin`
+                                : this.props.rank === `SYSADMIN`
+                                    ? `Sysadmin`
+                                    : this.props.rank === `SRMOD`
+                                        ? `Sr. Moderator`
+                                        : this.props.rank === `MOD`
+                                            ? `Moderator`
+                                            : this.props.rank === `DEVELOPER`
+                                                ? `Developer`
+                                                : `Helper`
+                }</h4>
+            </div>
+        </div>
+    );
+}
+
 class OurTeam extends React.Component {
     render = (): React.ReactNode => (
         <main className="text-center container">
@@ -169,6 +203,7 @@ class OurTeam extends React.Component {
                             <h3>Mumbo</h3>
                             <h4>Helper</h4>
                         </div>
+                    </div>
                 </div>
             </div>
         </main>
