@@ -30,7 +30,7 @@ import Darky from '../../public/assets/img/staff/darky.png';
 import Zyv from '../../public/assets/img/staff/zyv.png';
 import Mumbo from '../../public/assets/img/staff/mumbo.png';
 
-class StaffCard extends React.Component<{ name: string, rank: `HEAD ADMIN` | `ADMIN` | `SYSADMIN` | `SRMOD` | `MOD` | `DEVELOPER` | `HELPER` | `CUSTOM`, pfp: any, customRank?: string }> {
+class StaffCard extends React.Component<{ name: string, rank: `HEAD ADMIN` | `ADMIN` | `SYSADMIN` | `SRMOD` | `MOD` | `DEVELOPER` | `HELPER`, pfp: string, customRank?: string }> {
     render = (): React.ReactNode => (
         <div className={
             `card card-${
@@ -43,7 +43,7 @@ class StaffCard extends React.Component<{ name: string, rank: `HEAD ADMIN` | `AD
             <div className="staff-card-info">
                 <h3>{this.props.name}</h3>
                 <h4>{
-                    this.props.rank === `CUSTOM` && this.props.customRank != null
+                    this.props.customRank != null
                         ? this.props.customRank
                         : this.props.rank === `HEAD ADMIN`
                             ? `Head Admin`
@@ -52,7 +52,7 @@ class StaffCard extends React.Component<{ name: string, rank: `HEAD ADMIN` | `AD
                                 : this.props.rank === `SYSADMIN`
                                     ? `Sysadmin`
                                     : this.props.rank === `SRMOD`
-                                        ? `Sr. Moderator`
+                                        ? `Sr. Mod`
                                         : this.props.rank === `MOD`
                                             ? `Moderator`
                                             : this.props.rank === `DEVELOPER`
@@ -75,135 +75,109 @@ class OurTeam extends React.Component {
                 </p>
 
                 <div className="apply-wrapper">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdK4c2727ufXOw3hCJTMj9NtlKjWd-SFsX755KEmn_EkfVPrA/viewform" target="_blank" rel="noreferrer" className="btn apply">Apply For Staff</a>
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdK4c2727ufXOw3hCJTMj9NtlKjWd-SFsX755KEmn_EkfVPrA/viewform"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn apply">Apply For Staff</a>
                 </div>
             </div>
 
             <div className="container text-start mt-5">
                 <div className="staff-cards d-flex flex-wrap">
                     {/* Head Admins */}
-                    <div className="card card-headadmin">
-                        <img src={Zeropoint} alt="Zeropoint's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Zeropoint</h3>
-                            <h4>Project Manager</h4>
-                        </div>
-                    </div>
-                    <div className="card card-headadmin">
-                        <img src={DamienVesper} alt="DamienVesper's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>DamienVesper</h3>
-                            <h4>DevOps</h4>
-                        </div>
-                    </div>
-                    <div className="card card-headadmin">
-                        <img src={Alpaps} alt="Alpaps' profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Alpaps</h3>
-                            <h4>Head Admin</h4>
-                        </div>
-                    </div>
+                    <StaffCard
+                        rank="HEAD ADMIN"
+                        name="Zeropoint"
+                        pfp={Zeropoint}
+                        customRank="Project Manager"
+                    />
+                    <StaffCard
+                        rank="HEAD ADMIN"
+                        name="DamienVesper"
+                        pfp={DamienVesper}
+                        customRank="DevOps"
+                    />
+                    <StaffCard
+                        rank="HEAD ADMIN"
+                        name="Alpaps"
+                        pfp={Alpaps}
+                    />
 
                     {/* Admins */}
-                    <div className="card card-admin">
-                        <img src={TheRandomGuy98} alt="TheRandomGuy98's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>TheRandomGuy98</h3>
-                            <h4>Admin</h4>
-                        </div>
-                    </div>
-                    <div className="card card-admin">
-                        <img src={Agent} alt="Agent's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Agent</h3>
-                            <h4>Admin</h4>
-                        </div>
-                    </div>
-                    <div className="card card-admin">
-                        <img src={WarToWin} alt="WarToWin's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>WarToWin</h3>
-                            <h4>Admin</h4>
-                        </div>
-                    </div>
+                    <StaffCard
+                        rank="ADMIN"
+                        name="TheRandomGuy98"
+                        pfp={TheRandomGuy98}
+                    />
+                    <StaffCard
+                        rank="ADMIN"
+                        name="SolaceAgent"
+                        pfp={Agent}
+                    />
+                    <StaffCard
+                        rank="ADMIN"
+                        name="WarToWin"
+                        pfp={WarToWin}
+                    />
 
                     {/* Sysadmins */}
-                    <div className="card card-sysadmin">
-                        <img src={Arrow} alt="Arrow's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Arrow</h3>
-                            <h4>Sysadmin</h4>
-                        </div>
-                    </div>
-                    <div className="card card-sysadmin">
-                        <img src={Axite} alt="Axite's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Axite</h3>
-                            <h4>Sysadmin</h4>
-                        </div>
-                    </div>
+                    <StaffCard
+                        rank="SYSADMIN"
+                        name="Arrow"
+                        pfp={Arrow}
+                    />
+                    <StaffCard
+                        rank="SYSADMIN"
+                        name="Axite"
+                        pfp={Axite}
+                    />
 
                     {/* Senior Mods */}
-                    <div className="card card-srmod">
-                        <img src={Lion} alt="Lion's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Lion</h3>
-                            <h4>Senior Mod</h4>
-                        </div>
-                    </div>
-                    <div className="card card-srmod">
-                        <img src={Coelus} alt="Coelus' profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Coleus</h3>
-                            <h4>Senior Mod</h4>
-                        </div>
-                    </div>
-                    <div className="card card-srmod">
-                        <img src={Averdime} alt="Averdime's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Averdime</h3>
-                            <h4>Senior Mod</h4>
-                        </div>
-                    </div>
+                    <StaffCard
+                        rank="SRMOD"
+                        name="Lion"
+                        pfp={Lion}
+                    />
+                    <StaffCard
+                        rank="SRMOD"
+                        name="Coelus"
+                        pfp={Coelus}
+                    />
+                    <StaffCard
+                        rank="SRMOD"
+                        name="Averdime"
+                        pfp={Averdime}
+                    />
 
                     {/* Moderators */}
-                    <div className="card card-mod">
-                        <img src={ProtoLuke} alt="ProtoLuke's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>ProtoLuke</h3>
-                            <h4>Moderator</h4>
-                        </div>
-                    </div>
-                    <div className="card card-mod">
-                        <img src={TyraTheCat} alt="PriyusTheProto's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>TyraTheCat</h3>
-                            <h4>Moderator</h4>
-                        </div>
-                    </div>
+                    <StaffCard
+                        rank="MOD"
+                        name="ProtoLuke"
+                        pfp={ProtoLuke}
+                    />
+                    <StaffCard
+                        rank="MOD"
+                        name="TyraTheCat"
+                        pfp={TyraTheCat}
+                    />
 
                     {/* Helpers */}
-                    <div className="card card-helper">
-                        <img src={Darky} alt="Darky's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Darky</h3>
-                            <h4>Helper</h4>
-                        </div>
-                    </div>
-                    <div className="card card-helper">
-                        <img src={Zyv} alt="Zyv's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Zyv</h3>
-                            <h4>Helper</h4>
-                        </div>
-                    </div>
-                    <div className="card card-helper">
-                        <img src={Mumbo} alt="Mumbo's profile picture" />
-                        <div className="staff-card-info">
-                            <h3>Mumbo</h3>
-                            <h4>Helper</h4>
-                        </div>
-                    </div>
+                    <StaffCard
+                        rank="HELPER"
+                        name="Darky"
+                        pfp={Darky}
+                    />
+                    <StaffCard
+                        rank="HELPER"
+                        name="Zyv"
+                        pfp={Zyv}
+                    />
+                    <StaffCard
+                        rank="HELPER"
+                        name="Mumbo"
+                        pfp={Mumbo}
+                    />
                 </div>
             </div>
         </main>
