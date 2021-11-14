@@ -1,7 +1,6 @@
 import React from 'react';
 import alertify from 'alertifyjs';
 
-import 'alertifyjs/build/css/alertify.css';
 import '../../public/assets/scss/pages/servers.scss';
 
 class ServerEntry extends React.Component<{ name: string, node: `VOYAGER` | `APOLLO` | `EXCELSIOR` | `MERCURY` | `ARTEMIS` | `GEMINI`, port?: string, customIP?: string }> {
