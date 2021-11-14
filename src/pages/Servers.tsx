@@ -1,6 +1,31 @@
 import React from 'react';
+import alertify from 'alertifyjs';
 
+import 'alertifyjs/build/css/alertify.css';
 import '../../public/assets/scss/pages/servers.scss';
+
+class ServerEntry extends React.Component<{ name: string, node: `VOYAGER` | `APOLLO` | `EXCELSIOR` | `MERCURY` | `ARTEMIS` | `GEMINI`, port?: string, customIP?: string }> {
+    ip: string;
+
+    render = (): React.ReactNode => {
+        this.ip = this.props.customIP != null
+            ? this.props.customIP
+            : `${this.props.node.toLowerCase()}.alru.xyz${this.props.port != null ? `:${this.props.port}` : ``}`;
+
+        return (
+            <tr>
+                <td>{this.props.name}</td>
+                <td><a href="#" onClick={() => this.copyToClipboard()}>{this.ip == null ? `` : this.ip}</a></td>
+            </tr>
+        );
+    };
+
+    copyToClipboard = (): undefined => {
+        void navigator.clipboard.writeText(this.ip);
+        alertify.success(`Copied to clipboard!`, `success`);
+        return undefined;
+    };
+}
 
 class Servers extends React.Component {
     render = (): React.ReactNode => (
@@ -19,22 +44,9 @@ class Servers extends React.Component {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Family Guy DarkRP</td>
-                        <td><a href="steam://connect/excelsior.alru.xyz:9000">excelsior.alru.xyz:9000</a></td>
-                    </tr>
-                    <tr>
-                        <td>Among Us Royale</td>
-                        <td><a href="steam://connect/excelsior.alru.xyz:9001">excelsior.alru.xyz:9001</a></td>
-                    </tr>
-                    <tr>
-                        <td>Family Guy Fat Kid</td>
-                        <td><a href="steam://connect/excelsior.alru.xyz:9002">excelsior.alru.xyz:9002</a></td>
-                    </tr>
-                    <tr>
-                        <td><span className="bad me-1">[SOON]</span> South Park DarkRP</td>
-                        <td><a href="steam://connect/excelsior.alru.xyz:9004">excelsior.alru.xyz:9004</a></td>
-                    </tr>
+                    <ServerEntry name="Family Guy DarkRP" node="EXCELSIOR" port="9000" />
+                    <ServerEntry name="Among Us Royale" node="EXCELSIOR" port="9001" />
+                    <ServerEntry name="Family Guy Fat Kid" node="EXCELSIOR" port="9002" />
                 </tbody>
             </table>
             <br />
@@ -49,10 +61,7 @@ class Servers extends React.Component {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td><span className="bad me-1">[SOON]</span> AlruMC Network</td>
-                        <td><a href="#">mc.alru.xyz</a></td>
-                    </tr>
+                    <ServerEntry name="AlruMC Network" node="APOLLO" customIP="mc.alru.xyz" />
                 </tbody>
             </table>
             <br />
