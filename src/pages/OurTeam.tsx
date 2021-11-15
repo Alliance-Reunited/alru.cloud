@@ -86,98 +86,32 @@ class OurTeam extends React.Component {
             <div className="container text-start mt-5">
                 <div className="staff-cards d-flex flex-wrap">
                     {/* Head Admins */}
-                    <StaffCard
-                        rank="HEAD ADMIN"
-                        name="Zeropoint"
-                        pfp={Zeropoint}
-                        customRank="Project Manager"
-                    />
-                    <StaffCard
-                        rank="HEAD ADMIN"
-                        name="DamienVesper"
-                        pfp={DamienVesper}
-                        customRank="DevOps"
-                    />
-                    <StaffCard
-                        rank="HEAD ADMIN"
-                        name="Alpaps"
-                        pfp={Alpaps}
-                    />
+                    <StaffCard rank="HEAD ADMIN" name="Zeropoint" pfp={Zeropoint} customRank="Project Manager" />
+                    <StaffCard rank="HEAD ADMIN" name="DamienVesper" pfp={DamienVesper} customRank="DevOps" />
+                    <StaffCard rank="HEAD ADMIN" name="Alpaps" pfp={Alpaps} />
 
                     {/* Admins */}
-                    <StaffCard
-                        rank="ADMIN"
-                        name="TheRandomGuy98"
-                        pfp={TheRandomGuy98}
-                    />
-                    <StaffCard
-                        rank="ADMIN"
-                        name="SolaceAgent"
-                        pfp={Agent}
-                    />
-                    <StaffCard
-                        rank="ADMIN"
-                        name="WarToWin"
-                        pfp={WarToWin}
-                    />
+                    <StaffCard rank="ADMIN" name="TheRandomGuy98" pfp={TheRandomGuy98} />
+                    <StaffCard rank="ADMIN" name="SolaceAgent" pfp={Agent} />
+                    <StaffCard rank="ADMIN" name="WarToWin" pfp={WarToWin} />
 
                     {/* Sysadmins */}
-                    <StaffCard
-                        rank="SYSADMIN"
-                        name="Arrow"
-                        pfp={Arrow}
-                    />
-                    <StaffCard
-                        rank="SYSADMIN"
-                        name="Axite"
-                        pfp={Axite}
-                    />
+                    <StaffCard rank="SYSADMIN" name="Arrow" pfp={Arrow} />
+                    <StaffCard rank="SYSADMIN" name="Axite" pfp={Axite} />
 
                     {/* Senior Mods */}
-                    <StaffCard
-                        rank="SRMOD"
-                        name="Lion"
-                        pfp={Lion}
-                    />
-                    <StaffCard
-                        rank="SRMOD"
-                        name="Coelus"
-                        pfp={Coelus}
-                    />
-                    <StaffCard
-                        rank="SRMOD"
-                        name="Averdime"
-                        pfp={Averdime}
-                    />
+                    <StaffCard rank="SRMOD" name="Lion" pfp={Lion} />
+                    <StaffCard rank="SRMOD" name="Coelus" pfp={Coelus} />
+                    <StaffCard rank="SRMOD" name="Averdime" pfp={Averdime} />
 
                     {/* Moderators */}
-                    <StaffCard
-                        rank="MOD"
-                        name="ProtoLuke"
-                        pfp={ProtoLuke}
-                    />
-                    <StaffCard
-                        rank="MOD"
-                        name="TyraTheCat"
-                        pfp={TyraTheCat}
-                    />
+                    <StaffCard rank="MOD" name="ProtoLuke" pfp={ProtoLuke} />
+                    <StaffCard rank="MOD" name="TyraTheCat" pfp={TyraTheCat} />
 
                     {/* Helpers */}
-                    <StaffCard
-                        rank="HELPER"
-                        name="Darky"
-                        pfp={Darky}
-                    />
-                    <StaffCard
-                        rank="HELPER"
-                        name="Zyv"
-                        pfp={Zyv}
-                    />
-                    <StaffCard
-                        rank="HELPER"
-                        name="Mumbo"
-                        pfp={Mumbo}
-                    />
+                    <StaffCard rank="HELPER" name="Darky" pfp={Darky} />
+                    <StaffCard rank="HELPER" name="Zyv" pfp={Zyv} />
+                    <StaffCard rank="HELPER" name="Mumbo" pfp={Mumbo} />
                 </div>
             </div>
         </main>
