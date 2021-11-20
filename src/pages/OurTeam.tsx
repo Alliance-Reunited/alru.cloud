@@ -112,6 +112,7 @@ class OurTeam extends React.Component {
                     <StaffCard rank="HELPER" name="Darky" pfp={Darky} />
                     <StaffCard rank="HELPER" name="Zyv" pfp={Zyv} />
                     <StaffCard rank="HELPER" name="Mumbo" pfp={Mumbo} />
+                    {/* <StaffCard rank="HELPER" name="KillingInTheName" pfp={KillingInTheName} /> */}
                 </div>
             </div>
         </main>
