@@ -3,7 +3,7 @@ import alertify from 'alertifyjs';
 
 import '../../public/assets/scss/pages/servers.scss';
 
-class ServerEntry extends React.Component<{ name: string, node: `VOYAGER` | `APOLLO` | `EXCELSIOR` | `MERCURY` | `ARTEMIS` | `GEMINI`, port?: string, customIP?: string }> {
+class ServerEntry extends React.Component<{ name: string, node: `VOYAGER` | `APOLLO` | `EXCELSIOR` | `MERCURY` | `ARTEMIS` | `GEMINI`, port?: number, customIP?: string }> {
     ip: string;
 
     render = (): React.ReactNode => {
@@ -43,9 +43,9 @@ class Servers extends React.Component {
                     </tr>
                 </thead>
                 <tbody>
-                    <ServerEntry name="Family Guy DarkRP" node="EXCELSIOR" port="9000" />
-                    <ServerEntry name="Among Us Royale" node="EXCELSIOR" port="9001" />
-                    <ServerEntry name="Family Guy Fat Kid" node="EXCELSIOR" port="9002" />
+                    <ServerEntry name="Family Guy DarkRP" node="EXCELSIOR" port={9000} />
+                    <ServerEntry name="Among Us Royale" node="EXCELSIOR" port={9001} />
+                    <ServerEntry name="Family Guy Fat Kid" node="EXCELSIOR" port={9002} />
                 </tbody>
             </table>
             <br />
