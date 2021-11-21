@@ -29,9 +29,14 @@ p.desc {
         animation: fadeIn 2s;
     }
 
+    a.rust-btn {
+        background-color: $rust;
+        animation: fadeIn 2.25s;
+    }
+
     a.minecraft-btn {
         background-color: $minecraft;
-        animation: fadeIn 2.25s;
+        animation: fadeIn 2.5s;
     }
 
     a:hover {

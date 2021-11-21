@@ -13,6 +13,7 @@ class Home extends React.Component {
             </p>
             <div className="game-btn-wrapper d-flex mt-5">
                 <a href="/servers#gmod" className="gmod-btn btn btn-lg">Garry&apos;s Mod</a>
+                <a href="/servers#rust" className="rust-btn btn btn-lg">Rust</a>
                 <a href="/servers#minecraft" className="minecraft-btn btn btn-lg">Minecraft</a>
             </div>
         </main>

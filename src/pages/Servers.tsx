@@ -51,8 +51,23 @@ class Servers extends React.Component {
             <br />
 
             {/* Minecraft */}
+            <h3 className="rs-title" id="rust">Rust</h3>
+            <table className="server-table table table-borderless mt-4" id="rs-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>IP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <ServerEntry name="Vanilla Rust" node="EXCELSIOR" port={9010} />
+                </tbody>
+            </table>
+            <br />
+
+            {/* Minecraft */}
             <h3 className="mc-title" id="minecraft">Minecraft</h3>
-            <table className="server-table table table-borderless mt-4" id="minecraft-table">
+            <table className="server-table table table-borderless mt-4" id="mc-table">
                 <thead>
                     <tr>
                         <th>Name</th>

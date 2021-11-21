@@ -4,29 +4,34 @@ h1.server-title {
     animation: fastFadeIn 1s;
 }
 
+.gmod-title, .rs-title, .mc-title {
+    font-weight: bold;
+}
+
 .gmod-title {
     color: $gmod;
-    font-weight: bold;
-
     animation: fadeIn 1.25s;
+}
+
+.rs-title {
+    color: $rust;
+    animation: fadeIn 1.75s;
 }
 
 .mc-title {
     color: $minecraft;
-    font-weight: bold;
-
-    animation: fadeIn 1.75s;
+    animation: fadeIn 2.25s;
 }
 
 #gmod-table {
     animation: fadeIn 1.5s;
 }
 
-#minecraft-table {
+#rs-table {
     animation: fadeIn 2s;
 }
 
-#fivem-table {
+#mc-table {
     animation: fadeIn 2.5s;
 }
 
@@ -38,18 +43,6 @@ h1.server-title {
     tr {
         color: #ffffff;
         justify-content: center;
-
-        .bad {
-            color: #e74c3c;
-        }
-
-        .good {
-            color: #2ecc71;
-        }
-
-        .primary {
-            color: #9b59b6;
-        }
 
         a {
             color: #9b59b6;
