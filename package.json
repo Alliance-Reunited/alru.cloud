@@ -14,6 +14,16 @@
     "yarn": ">=3.1.0",
     "node": ">=16.10.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alliance-Reunited/alru.xyz.git"
+  },
+  "author": "DamienVesper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alliance-Reunited/alru.xyz/issues"
+  },
+  "homepage": "https://alru.xyz",
   "devDependencies": {
     "@types/bootstrap": "^5.1.6",
     "@types/css-minimizer-webpack-plugin": "^3.0.2",
