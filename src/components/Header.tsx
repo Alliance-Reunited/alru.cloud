@@ -29,7 +29,7 @@ class Header extends React.Component {
                             </ul>
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <a href="/forums/" target="_blank" rel="noreferrer" className="nav-link">Forum</a>
+                                    <a href="/forums/" target="_blank" rel="noreferrer" className="nav-link">Forums</a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="https://panel.alru.xyz" target="_blank" rel="noreferrer" className="nav-link">Panel</a>
