@@ -1,5 +1,5 @@
 {
-  "name": "alru.xyz",
+  "name": "@alliance-reunited/alru.xyz",
   "description": "The Alliance Reunited website.",
   "packageManager": "yarn@3.1.0",
   "version": "1.0.0",
