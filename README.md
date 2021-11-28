@@ -5,9 +5,8 @@
 <br />
 
 ## Installation
-This project uses [Yarn](https://yarnpkg.com). It is advised not to mix package managers as this can result in inconsistent lockfiles.
-
-To install dependencies for this project, open a command line interface at the directory of your project, and run:
+This project utilizes [Yarn](https://yarnpkg.com). No other package manager is supported for this project.
+To install dependencies for this project, open a command line interface at the directory of the cloned repository, and run:
 ```sh
 yarn
 ```
