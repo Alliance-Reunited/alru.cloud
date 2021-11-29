@@ -11,7 +11,7 @@ __metadata:
   dependencies:
     "@popperjs/core": ^2.10.2
     "@types/bootstrap": ^5.1.6
-    "@types/css-minimizer-webpack-plugin": ^3.0.2
+    "@types/css-minimizer-webpack-plugin": ^3.2.1
     "@types/node": ^16.11.10
     "@types/react": ^17.0.37
     "@types/react-dom": ^17.0.11
@@ -266,19 +266,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/css-minimizer-webpack-plugin@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "@types/css-minimizer-webpack-plugin@npm:3.0.2"
+"@types/css-minimizer-webpack-plugin@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "@types/css-minimizer-webpack-plugin@npm:3.2.1"
   dependencies:
-    "@types/cssnano": "*"
-    postcss: ^8.2.9
-    tapable: ^2.2.0
-    webpack: ^5.37.0
-  checksum: 15072b0e604a9fd713288e0c071ef45ce18c6d41605c5a9c265a0c022e14a78eb027bea4a870d0b81758cdbd0f5972dff113a994e92b66ffff1b638e1cc87cfd
+    css-minimizer-webpack-plugin: "*"
+  checksum: e3ecdeb94a39e1dd97653210cf8f18052f7818adb95926ac8c50266668ff2f89fae515c27fa5f5035322aa7b6ae004d31711d000244c70b3d243e567321058d8
   languageName: node
   linkType: hard
 
-"@types/cssnano@npm:*, @types/cssnano@npm:^4.0.1":
+"@types/cssnano@npm:^4.0.1":
   version: 4.0.1
   resolution: "@types/cssnano@npm:4.0.1"
   dependencies:
@@ -1653,7 +1650,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-minimizer-webpack-plugin@npm:^3.2.0":
+"css-minimizer-webpack-plugin@npm:*, css-minimizer-webpack-plugin@npm:^3.2.0":
   version: 3.2.0
   resolution: "css-minimizer-webpack-plugin@npm:3.2.0"
   dependencies:
@@ -4896,7 +4893,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.15, postcss@npm:^8.2.9, postcss@npm:^8.3.5":
+"postcss@npm:^8.2.15, postcss@npm:^8.3.5":
   version: 8.3.11
   resolution: "postcss@npm:8.3.11"
   dependencies:
@@ -6345,7 +6342,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:*, webpack@npm:^5, webpack@npm:^5.37.0, webpack@npm:^5.38.1":
+"webpack@npm:*, webpack@npm:^5, webpack@npm:^5.38.1":
   version: 5.64.2
   resolution: "webpack@npm:5.64.2"
   dependencies:
