@@ -20,4 +20,4 @@ yarn dev
 ```
 
 ## Deployment
-On push to the `master` branch, a GitHub Action will automatically deploy the commit into production. 
+Builds pushed to the `master` branch are automatically deployed to the webserver via Github Actions.
