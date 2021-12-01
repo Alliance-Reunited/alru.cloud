@@ -5,8 +5,8 @@ on:
     branches: ['master']
 
 jobs:
-  deploy:
-    name: Deploy
+  nodejs:
+    name: Node.js
     runs-on: ubuntu-latest
 
     strategy:
@@ -28,6 +28,9 @@ jobs:
       - name: Build
         run: yarn build
 
+      - name: Lint
+        run: yarn dev:lint:ci
+
       - name: Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.0
         with:
@@ -36,5 +39,5 @@ jobs:
           port: '${{ secrets.SFTP_PORT }}'
           ssh_private_key: ${{ secrets.SFTP_PRIVKEY }} 
           local_path: './dist/*'
-          remote_path: '/var/www/alru.xyz'
+          remote_path: '/var/www/i.alru.xyz'
           args: '-o ConnectTimeout=5'
