@@ -4,7 +4,7 @@ import '../../public/assets/scss/pages/staff.scss';
 
 // Head Admins
 import Zeropoint from '../../public/assets/img/staff/zeropoint.gif';
-import DamienVesper from '../../public/assets/img/staff/damienvesper.gif';
+import Axite from '../../public/assets/img/staff/axite.png';
 import Alpaps from '../../public/assets/img/staff/alpaps.png';
 
 // Admins
@@ -14,7 +14,6 @@ import WarToWin from '../../public/assets/img/staff/wartowin.png';
 
 // Sysadmins
 import Arrow from '../../public/assets/img/staff/arrow.jpg';
-import Axite from '../../public/assets/img/staff/axite.png';
 
 // Senior Mods
 import Lion from '../../public/assets/img/staff/lion.png';
@@ -87,7 +86,7 @@ class OurTeam extends React.Component {
                 <div className="staff-cards d-flex flex-wrap">
                     {/* Head Admins */}
                     <StaffCard rank="HEAD ADMIN" name="Zeropoint" pfp={Zeropoint} customRank="Project Manager" />
-                    <StaffCard rank="HEAD ADMIN" name="DamienVesper" pfp={DamienVesper} customRank="DevOps" />
+                    <StaffCard rank="HEAD ADMIN" name="Axite" pfp={Axite} customRank="DevOps" />
                     <StaffCard rank="HEAD ADMIN" name="Alpaps" pfp={Alpaps} />
 
                     {/* Admins */}
@@ -97,7 +96,6 @@ class OurTeam extends React.Component {
 
                     {/* Sysadmins */}
                     <StaffCard rank="SYSADMIN" name="Arrow" pfp={Arrow} />
-                    <StaffCard rank="SYSADMIN" name="Axite" pfp={Axite} />
 
                     {/* Senior Mods */}
                     <StaffCard rank="SRMOD" name="Lion" pfp={Lion} />
