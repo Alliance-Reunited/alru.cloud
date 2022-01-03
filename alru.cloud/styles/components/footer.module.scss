@@ -1,0 +1,17 @@
+.main {
+    position: fixed;
+    bottom: 0px;
+    padding: 1.5em 15%;
+    box-shadow: 0 -1px grey;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+    width: 100%;
+}
