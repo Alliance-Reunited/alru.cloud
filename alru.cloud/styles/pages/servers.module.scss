@@ -11,3 +11,41 @@
 .subtitle {
     font-size: 1.5rem;
 }
+
+.serverPanel {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background: #1f1f1f;
+    padding: 0.5rem;
+
+    .info {
+        margin-top: 0.5rem;
+        text-align: left;
+
+        p.servername {
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.previewImage {
+    height: 10rem;
+    width: 25rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.serversPanel {
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
