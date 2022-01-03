@@ -1,6 +1,19 @@
 import styles from "../styles/components/footer.module.scss";
 
-function Footer() {
+const insults = [
+    "Vesper smells",
+    "Vesper is bad at chess",
+    "(not) made by Lord DamienVesper",
+    "Vesper's code looks like a toddler shit itself on a keyboard lol",
+    "Vesper can't hear correctly",
+    "@author not DamienVesper",
+    "Vesper legitimately thinks white buttons on black background looks good",
+]
+
+function Footer(props) {
+    const rN = Math.floor(Math.random()*insults.length);
+    const insultText = insults[rN];
+
     return (
         <div className={styles.main}>
             <div className={styles.left}>
@@ -16,7 +29,7 @@ function Footer() {
             </div>
 
             <div className={styles.right}>
-                <p>// (not) made by DamienVesper</p>
+                <p>// {insultText || "Vesper insult failed to load"}</p>
             </div>
     </div>)   
 }
