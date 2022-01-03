@@ -5,6 +5,12 @@ import Footer from "../../components/Footer";
 // Custom page-only SCSS
 import styles from "../../styles/pages/servers.module.scss";
 
+function ServerPanel(props) {
+    return(<div className={}>
+        
+    </div>)
+}
+
 function ServersIndex() {
     return (<div>
         <NavBar />
@@ -14,9 +20,7 @@ function ServersIndex() {
             <p className={styles.subtitle}>Check out our amazing GameServers</p>
         </div>
 
-        <div className={styles.serverContainer}>
-
-        </div>
+        <ServerPanel title="PrisonRP" ip="localhost" url="prisonrp"/>
 
         <Footer />
     </div>)
