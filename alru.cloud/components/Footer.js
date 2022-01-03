@@ -7,8 +7,12 @@ function Footer() {
                 <a href="#nav">To the top of the page</a>
             </div>
 
-            <div className="alru">
-                <p><strong>ALRU</strong></p>
+            <div className={styles.alru}>
+                <a href="/staff">Staff</a>
+                <p>-</p>
+                <a href="/servers">Our Servers</a>
+                <p>-</p>
+                <a href="/servers">Game Panel</a>
             </div>
 
             <div className={styles.right}>

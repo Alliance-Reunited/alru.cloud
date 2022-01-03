@@ -7,14 +7,14 @@ function NavBar() {
                 <h1>Alliance Reunited</h1>
             </div>
             <div className={styles.links}>
-                <a href="#">Servers</a>
-                <a href="#">Staff</a>
+                <a href="/servers">Servers</a>
+                <a href="/staff">Staff</a>
             </div>
         </div>
 
         <div className={styles.right}>
             <div className={styles.links}>
-                <a href="#">Game Panel</a>
+                <a href="https://panel.alru.cloud">Game Panel</a>
             </div>
         </div>
     </div>)
