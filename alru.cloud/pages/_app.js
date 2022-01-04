@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (<div>
     {/* Page settings */}
     <Head>
-
+      
     </Head>
 
     {/* Render normal page components */}

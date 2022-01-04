@@ -17,14 +17,20 @@
     overflow: hidden;
     background: #1f1f1f;
     padding: 0.5rem;
-
     .info {
         margin-top: 0.5rem;
         text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
 
         p.servername {
             font-weight: bold;
             font-size: 1.25rem;
+        }
+
+        p.serverconn {
+            font-weight: bold;
         }
     }
 }

@@ -17,7 +17,7 @@ function HomePage() {
         <a href="/servers" className={styles.subsubtitle}>See our servers</a>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

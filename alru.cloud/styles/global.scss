@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 * {
     box-sizing: border-box;
@@ -11,6 +12,10 @@ body {
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -18,4 +23,16 @@ a {
 
 a:hover {
     color: rgb(230, 230, 230);
+}
+blockquote {
+    padding: 32px;
+    margin-top: 0.5rem;
+    color: rgba(0,0,0,.8);
+    border: 1px #707070;
+    border-style: solid;
+    background: #4e4e4e;
+    border-radius: 4px;
+    line-height: 1.6;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

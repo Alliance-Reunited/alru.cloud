@@ -5,20 +5,40 @@ import Footer from "../../components/Footer";
 // Custom page-only SCSS
 import styles from "../../styles/pages/servers.module.scss";
 
+// Filesystem Library
+const fs = require("fs");
+
 function ServerPanel(props) {
     return(<div className={styles.serverPanel}>
+
         <div className={styles.previewImage}>
             <img src={props.image}></img>    
-        </div> {/* Preview image made with background on a div */}
-        <div className={styles.info}>
-            <p className={styles.servername}>{props.title}</p>
-            <p className={styles.serverconn}>{props.ip}</p>
-            <a href={`/servers/${props.url}`} className={styles.serverrules}>Rules</a>
         </div>
+
+        <div className={styles.info}>
+
+            <div style={styles.left}>
+                <p className={styles.servername}>{props.title}</p>
+                <a href={`/servers/${props.url}`} className={styles.serverrules}>Rules</a>
+            </div>
+
+            <div style={styles.right}>
+                <p className={styles.serverconn}>{props.ip}</p>
+            </div>
+
+        </div>
+
     </div>)
 }
 
-function ServersIndex() {
+export async function getServerSideProps() {
+    const data = fs.readFileSync('./config/servers.json', {encoding:'utf8', flag:'r'});
+    const dataArray = JSON.parse(data);
+
+    return { props: { dataArray } }
+}
+
+function ServersIndex(props) {
     return (<div>
         <NavBar />
 
@@ -28,12 +48,16 @@ function ServersIndex() {
         </div>
 
         <div className={styles.serversPanel}>
-            <ServerPanel title="PrisonRP" ip="localhost" url="prisonrp" image="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png"/>
-            <ServerPanel title="DarkRP" ip="localhost" url="darkrp"/>
-            <ServerPanel title="AmericanRP" ip="localhost" url="americanrp"/>
+            {props.dataArray.servers.map((serverTable, ind) => {
+                console.log(serverTable);
+                return (<div>
+                    <ServerPanel title={serverTable.name} ip={serverTable.ip} url={ind} image={serverTable.preview}/>
+                </div>
+                ) 
+            })}
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
     </div>)
 }
 
