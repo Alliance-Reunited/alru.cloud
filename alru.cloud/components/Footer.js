@@ -1,4 +1,5 @@
 import styles from "../styles/components/footer.module.scss";
+import Link from "next/link";
 
 const insults = [
     "Vesper smells",
@@ -29,7 +30,7 @@ function Footer(props) {
             </div>
 
             <div className={styles.right}>
-                <p>// {insultText || "Vesper insult failed to load"}</p>
+                <p>{insultText || "Vesper insult failed to load"}</p>
             </div>
     </div>)   
 }

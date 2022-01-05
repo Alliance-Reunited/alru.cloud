@@ -48,7 +48,7 @@ function ServersIndex(props) {
 
         <div className={styles.serversPanel}>
             {props.dataArray.servers.map((serverTable, ind) => {
-                return (<div>
+                return (<div key={ind}>
                     <ServerPanel title={serverTable.name} ip={serverTable.ip} url={ind} image={serverTable.preview}/>
                 </div>
                 ) 
