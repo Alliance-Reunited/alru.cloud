@@ -30,8 +30,10 @@ function ServerPanel(props) {
 }
 
 export async function getServerSideProps() {
-    const data = fs.readFileSync('./config/servers.json', {encoding:'utf8', flag:'r'});
-    const dataArray = JSON.parse(data);
+    const res = await fetch("https://raw.githubusercontent.com/Alliance-Reunited/server-rules/main/server_cfg.json");
+    const text = await res.text();
+
+    const dataArray = await JSON.parse(text);
 
     return { props: { dataArray } }
 }

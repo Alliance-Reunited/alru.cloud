@@ -15,13 +15,14 @@ export async function getServerSideProps({req, res, resolvedUrl}) {
     // Get the index of the page
     const serverIndex = resolvedUrl.substring(9);
 
-    const data = await fs.readFileSync('./config/servers.json', {encoding:'utf8', flag:'r'});
-    const json = await JSON.parse(data);
+    const resp = await fetch("https://raw.githubusercontent.com/Alliance-Reunited/server-rules/main/server_cfg.json");
+    const text = await resp.text();
+    const json = await JSON.parse(text);
     const dataTable = await json.servers[serverIndex];
 
     const r = await fetch(dataTable.rules)
-    const text = await r.text();
-    return { props: { serverIndex, dataTable, markdown: text } }
+    const text2 = await r.text();
+    return { props: { serverIndex, dataTable, markdown: text2 } }
 }
 
 function ServerRulesPage(props) {
