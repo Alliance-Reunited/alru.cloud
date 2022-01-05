@@ -8,6 +8,7 @@ function NavBar() {
             </div>
             <div className={styles.links}>
                 <a href="/servers">Servers</a>
+                <a href="/discords">Discord Servers</a>
             </div>
         </div>
 

@@ -53,8 +53,6 @@ function ServersIndex(props) {
                 ) 
             })}
         </div>
-
-        {/* <Footer /> */}
     </div>)
 }
 

@@ -1,0 +1,33 @@
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discord {
+    width: 99%;
+    height: 90%;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    border-collapse: collapse;
+    margin: 1em;
+    border-radius: 0.25rem;
+    overflow: hidden;
+
+    th, td {
+        padding: 0.5rem;
+    }
+
+    th {
+        background: #474747;
+    }
+
+    * {
+        border: none;
+        box-shadow: none;
+    }
+
+    tr:nth-child(even){background-color: #1a1a1a;}
+    tr:nth-child(odd){background-color: #272727;}
+}

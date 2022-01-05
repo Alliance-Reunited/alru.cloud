@@ -1,5 +1,6 @@
 import NavBar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import Head from "next/head";
 
 // Include FS
 const fs = require("fs");
@@ -26,12 +27,10 @@ export async function getServerSideProps({req, res, resolvedUrl}) {
 function ServerRulesPage(props) {
     return (<div>
         <NavBar />
-        <p>ID: {props.serverIndex}</p>
         <ReactMarkdown
             children={props.markdown}
             className={styles.rules}
         />
-        {/* <Footer /> */}
     </div>)
 }
 
