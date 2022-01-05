@@ -8,7 +8,6 @@ function NavBar() {
             </div>
             <div className={styles.links}>
                 <a href="/servers">Servers</a>
-                <a href="/staff">Staff</a>
             </div>
         </div>
 

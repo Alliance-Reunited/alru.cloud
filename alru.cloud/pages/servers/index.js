@@ -16,16 +16,14 @@ function ServerPanel(props) {
         </div>
 
         <div className={styles.info}>
-
-            <div style={styles.left}>
+            <div className={styles.innerInfo}>
                 <p className={styles.servername}>{props.title}</p>
-                <a href={`/servers/${props.url}`} className={styles.serverrules}>Rules</a>
-            </div>
-
-            <div style={styles.right}>
                 <p className={styles.serverconn}>{props.ip}</p>
             </div>
-
+            
+            <div className={styles.buttons}>
+                <a href={`/servers/${props.url}`} className={styles.rulesButton}><button>Rules</button></a>
+            </div>
         </div>
 
     </div>)
@@ -49,7 +47,6 @@ function ServersIndex(props) {
 
         <div className={styles.serversPanel}>
             {props.dataArray.servers.map((serverTable, ind) => {
-                console.log(serverTable);
                 return (<div>
                     <ServerPanel title={serverTable.name} ip={serverTable.ip} url={ind} image={serverTable.preview}/>
                 </div>

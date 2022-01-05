@@ -22,7 +22,7 @@
         text-align: left;
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
 
         p.servername {
             font-weight: bold;
@@ -31,6 +31,27 @@
 
         p.serverconn {
             font-weight: bold;
+        }
+
+        .buttons {
+            button {
+                --border: linear-gradient(to right, #f953c6, #b91d73);
+                background: var(--border);
+                color: white;
+                padding: 0.7rem 1.5rem;
+                border-style: none;
+                color: var(--border);
+                border-radius: 0.3rem;
+                font-size: 1rem;
+                transition: 0.15s;
+            }
+
+            button:hover {
+                border-color: var(--border);
+                background: var(--border);
+                border-radius: 0.5rem;
+                color: white;
+            }
         }
     }
 }
