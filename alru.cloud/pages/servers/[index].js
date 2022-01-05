@@ -15,9 +15,9 @@ export async function getServerSideProps({req, res, resolvedUrl}) {
     // Get the index of the page
     const serverIndex = resolvedUrl.substring(9);
 
-    const data = fs.readFileSync('./config/servers.json', {encoding:'utf8', flag:'r'});
-    const json = JSON.parse(data);
-    const dataTable = json.servers[serverIndex];
+    const data = await fs.readFileSync('./config/servers.json', {encoding:'utf8', flag:'r'});
+    const json = await JSON.parse(data);
+    const dataTable = await json.servers[serverIndex];
 
     const r = await fetch(dataTable.rules)
     const text = await r.text();

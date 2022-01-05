@@ -1,5 +1,5 @@
 .rules {
-    padding: 1.5em 15%;
+    padding: 1.5rem 15%;
 
     // Time for special things
 
@@ -9,5 +9,11 @@
 
     p, li {
         margin-top: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .rules {
+        padding: 1rem;
     }
 }
