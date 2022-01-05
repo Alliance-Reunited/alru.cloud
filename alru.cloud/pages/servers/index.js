@@ -1,6 +1,7 @@
 // Import componenets
 import NavBar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import Link from "next/link";
 
 // Custom page-only SCSS
 import styles from "../../styles/pages/servers.module.scss";
@@ -12,7 +13,7 @@ function ServerPanel(props) {
     return(<div className={styles.serverPanel}>
 
         <div className={styles.previewImage}>
-            <img src={props.image}></img>    
+            <img src={props.image} alt={props.servername} />    
         </div>
 
         <div className={styles.info}>
@@ -22,7 +23,7 @@ function ServerPanel(props) {
             </div>
             
             <div className={styles.buttons}>
-                <a href={`/servers/${props.url}`} className={styles.rulesButton}><button>Rules</button></a>
+                <Link href={`/servers/${props.url}`} className={styles.rulesButton}><button>Rules</button></Link>
             </div>
         </div>
 

@@ -27,10 +27,7 @@ export async function getServerSideProps({req, res, resolvedUrl}) {
 function ServerRulesPage(props) {
     return (<div>
         <NavBar />
-        <ReactMarkdown
-            children={props.markdown}
-            className={styles.rules}
-        />
+        <ReactMarkdown className={styles.rules}>{props.markdown}</ReactMarkdown>
     </div>)
 }
 

@@ -21,11 +21,11 @@ function Footer(props) {
             </div>
 
             <div className={styles.alru}>
-                <a href="/staff">Staff</a>
+                <Link href="/staff">Staff</Link>
                 <p>-</p>
-                <a href="/servers">Our Servers</a>
+                <Link href="/servers">Our Servers</Link>
                 <p>-</p>
-                <a href="/servers">Game Panel</a>
+                <Link href="/servers">Game Panel</Link>
             </div>
 
             <div className={styles.right}>
