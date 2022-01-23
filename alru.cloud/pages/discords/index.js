@@ -1,7 +1,5 @@
 // Header and footer
 import NavBar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import Link from "next/link";
 
 import styles from "../../styles/pages/discord.module.scss";
 
