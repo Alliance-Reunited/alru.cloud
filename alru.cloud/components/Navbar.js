@@ -5,7 +5,7 @@ function NavBar() {
     return (<div className={styles.main} id="nav">
         <div className={styles.left}>
             <div className={styles.logo}>
-                <h1><Link href=".">Alliance Reunited</Link></h1>
+                <h1><Link href=".">Banabyte Network</Link></h1>
             </div>
             <div className={styles.links}>
                 <Link href="/servers">Servers</Link>

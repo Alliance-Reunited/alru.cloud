@@ -12,8 +12,8 @@ function HomePage() {
       <NavBar />
 
       <div className={styles.hero}>
-        <p className={styles.title}>Alliance Reunited</p>
-        <p className={styles.subtitle}>Game Hosting Done Right</p>
+        <p className={styles.title}>Banabyte</p>
+        <p className={styles.subtitle}>Really Nice Servers</p>
         <br></br>
         <Link href="/servers" className={styles.subsubtitle}>See our servers</Link>
       </div>

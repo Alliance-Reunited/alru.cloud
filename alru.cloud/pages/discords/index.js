@@ -13,16 +13,12 @@ function DiscordInfoPage() {
                     <th>Invite Link</th>
                 </tr>
                 <tr>
-                    <td>Main Discord</td>
-                    <td><a href="https://discord.gg/mNv6mPdg2G">https://discord.gg/mNv6mPdg2G</a></td>
+                    <td>Community</td>
+                    <td><a href="https://discord.gg/mNv6mPdg2G">https://discord.gg/qnDwP4QY2K</a></td>
                 </tr>
                 <tr>
-                    <td>AmericanRP</td>
-                    <td><a href="https://discord.gg/BeEtNutxY7">https://discord.gg/BeEtNutxY7</a></td>
-                </tr>
-                <tr>
-                    <td>Family Guy DarkRP</td>
-                    <td><a href="https://discord.gg/pbSd4Auaca">https://discord.gg/pbSd4Auaca</a></td>
+                    <td>Gmod RP</td>
+                    <td><a href="https://discord.gg/BeEtNutxY7">https://discord.gg/mXG5nQWGw4</a></td>
                 </tr>
             </table>
         </div>
