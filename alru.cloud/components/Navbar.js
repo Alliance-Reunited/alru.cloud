@@ -10,13 +10,10 @@ function NavBar() {
             <div className={styles.links}>
                 <Link href="/servers">Servers</Link>
                 <Link href="/discords">Discord Servers</Link>
+                <Link href="https://panel.cronyte.com/">Game Panel</Link>
             </div>
         </div>
-
         <div className={styles.right}>
-            <div className={styles.links}>
-                <Link href="https://panel.alru.cloud">Game Panel</Link>
-            </div>
         </div>
     </div>)
 }
